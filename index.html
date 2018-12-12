@@ -1,3 +1,163 @@
-<a href="BubbleV2">VoteIT Engagement Visualization</a>
-<br><br>
-<a href="handlingsplan">Handlingsplanen Visualization</a>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bubbles V0.12</title>
+    <!-- <link rel="stylesheet" type="text/css" href="/css/lib/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="/BubbleV2/css/bubbles.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/bubbles.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
+
+  </head>
+  <body>
+    <div class="inner_content">
+    <div id="nav_bar_top" >
+      <nav class="navbar navbar-expand-sm navbar-dark py-0 px-0">
+        <a class="col-2 navbar-brand mx-0" style="border-right: 1px solid #505050" href="http://skoldigiplan.se">#skolDigiplan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active view" id="view_0" style="border-left:none !important;">
+              <a class="nav-link" onclick="change_view(0)">Översikt <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item view" id="view_1">
+              <a class="nav-link" onclick="change_view(1)">Fokusområden</a>
+            </li>
+            <li class="nav-item view" id="view_2">
+              <a class="nav-link" onclick="change_view(2)">Rådslag</a>
+            </li>
+            <li class="nav-item view" id="view_3">
+              <a class="nav-link" onclick="change_view(3)">Tid</a>
+            </li>
+            <li class="nav-item view" id="view_4">
+              <a class="nav-link" onclick="change_view(4)">Regional/Annat</a>
+            </li>
+            <li class="nav-item view" id="view_5">
+              <a class="nav-link" onclick="change_view(5)">Karta</a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-md-0"> -->
+            <!-- <input class="form-control" id="search_bar" type="text" placeholder="Sök..."> -->
+            <!-- <span class="glyphicon glyphicon-search" aria-hidden="true"></span> -->
+
+          <!-- </form> -->
+          <a target="_blank" id="about_tog"  class="mx-2" style="cursor:pointer;" onclick="toggle_about(0)" >
+          <!-- <button type="button" class="form-inline my-0 btn" aria-label="Left Align"> -->
+            <img src="resources/help-circle.svg"/>
+          <!-- </button> -->
+        </a>
+        </div>
+      <!-- </nav> -->
+    </div>
+    <div id="content_container" class="container">
+      <div class="row" id="content_row">
+        <div id="menu" class="col-2 ">
+          <h5 style="margin-top:5px;">Filtreringsalternativ</h5>
+          <hr class="pl-0 mb-0">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <div id="filter_pills">
+                <h6>Fokusområde</h6>
+                <span class="badge badge-pill badge-voteit">Digital kompetens</span>
+                <span class="badge badge-pill badge-voteit">Likvärdig tillgång / användning</span>
+                <span class="badge badge-pill badge-voteit">Forskning och uppföljning</span>
+                <br><br><h6>Tid</h6>
+                <span class="badge badge-pill badge-voteit">Kort</span>
+                <span class="badge badge-pill badge-voteit">Medel</span>
+                <span class="badge badge-pill badge-voteit">Lång</span>
+                <span class="badge badge-pill badge-voteit">N/A</span>
+                <br><br>
+                <h6>Aktörer</h6>
+                <span class="badge badge-pill badge-voteit">Departement</span>
+                <span class="badge badge-pill badge-voteit">Forskare</span>
+                <span class="badge badge-pill badge-voteit">Huvudman</span>
+                <span class="badge badge-pill badge-voteit">Lärare</span>
+                <span class="badge badge-pill badge-voteit">Kommunpolitiken</span>
+                <span class="badge badge-pill badge-voteit">SKL</span>
+                <span class="badge badge-pill badge-voteit">Lärarutbildningarna</span>
+                <span class="badge badge-pill badge-voteit">Lärosäten</span>
+                <span class="badge badge-pill badge-voteit">Regeringen</span>
+                <span class="badge badge-pill badge-voteit">Regionen</span>
+                <span class="badge badge-pill badge-voteit">Skolledning</span>
+                <span class="badge badge-pill badge-voteit">Skolverket</span>
+                <span class="badge badge-pill badge-voteit">Staten</span>
+                <span class="badge badge-pill badge-voteit">Universitet och högskolerådet</span>
+                <span class="badge badge-pill badge-voteit">Vinnova</span>
+
+                <!-- <span class="badge badge-pill badge-primary">Okategoriserad</span> -->
+
+              </div>
+            </li>
+            <hr class="pl-0 mb-0">
+              <!-- <br>   -->
+            <li class="nav-item">
+              <!-- <h6>Färg</h6> -->
+              <!-- <br> -->
+              <!-- <a href="#" class="p-1 btn btn-primary btn-sm color-button">Resultat</a> -->
+              <!-- <div class="btn-group btn-group-toggle" data-toggle="buttons"> -->
+              <!-- <label class="px-1 btn btn-info col-but active"> -->
+                <!-- <input type="radio" name="options" id="option1" autocomplete="off" checked> Rådslag -->
+              <!-- </label> -->
+              <!-- <label class="px-1 btn btn-info col-but"> -->
+                <!-- <input type="radio" name="options" id="option2" autocomplete="off"> Fokusområde -->
+              <!-- </label> -->
+            <!-- </div> -->
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link disabled" href="#">Reset</a> -->
+              <!-- <br> -->
+              <!-- <a href="#" onclick="check_me()" class="btn btn-dark">Återställ</a> -->
+              <!-- <br> -->
+            </li>
+          </ul>
+        </div>
+        <div class="col-7 px-0" id="main_box">
+
+            <svg id="bubbles_svg_area" width="960" height="540"></svg>
+        </div>
+        <div class="col-3" id="information_project">
+          <!-- <div id="info_box"> -->
+            <div style="width: 18rem;">
+              <div class=" my-0">
+                <h5 id="card_header" class="card-title my-0"><br><span>Introduktion</span></h5>
+              </div>
+                <h6 id="card_meeting_tree"></h6>
+                <hr>
+                <div class="card_body">
+                  Så här fungerar detta verktyg.
+                <p id="card_description" class="card-text"></p>
+                <div id="pills">
+                </div>
+              </div>
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+</div>
+<div class="check_text">
+</div>
+<div id="about_box" class="about_box mx-2 my-2">
+  <h5 id="about_header" class="card-title mx-2 my-2">Om Projektet<span style="float:right;cursor:pointer;"><button type="button" class="close" aria-label="Close"><span onclick="toggle_about(1)"aria-hidden="true">&times;</span></button></span></h5>
+  <hr>
+  <p class='mx-2'>
+  Här skriver vi lite information om projektet och hur man använder verktyget
+</p>
+<span style="font-size:10px;"><a target="_blank" href="http://www.victorkesten.com">Victor Kesten</a></span>
+
+<img class="my-1" src="resources/SKL_logga.png"/ style="position:absolute;width:15%; bottom:0; right:27%;">
+
+<img src="resources/känneteckenskoldigiplan.png"/ href="http://skoldigiplan.se" style="margin-left:3%;width:25%;bottom:0; right:0; position:absolute;">
+
+</div>
+  <script src="js/libraries/jquery-3.2.1.min.js"></script>
+  <script src="js/libraries/bootstrap/bootstrap.min.js"></script>
+  <script src="js/libraries/d3.v4.min.js"></script>
+  <script src="js/new_bubbles.js"></script>
+  <script src="js/data_parse.js"></script>
+</body>
+
+<html>

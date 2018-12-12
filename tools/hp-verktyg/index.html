@@ -1,101 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="vistool/css/sankey.css">
-    <link rel="stylesheet" type="text/css" href="../../BubbleV2/css/lib/bootstrap.min.css">
-    <title>Handlingsplan Verktyg</title>
+    <meta http-equiv="refresh" content="0; url=/handlingsplan-verktyg" />
+    <p><a href="/handlingsplan-verktyg">Redirect</a></p>
+    <script type="text/javascript">
+        window.location.href = "/handlingsplan-verktyg"
+    </script>
   </head>
   <body>
-
-  <div class="top_nav_bar">
-    <nav class="navbar navbar-light py-0">
-      <span class="navbar-brand nav_bar_text mb-0 h1">Handlingsplan Verktyg</span>
-    </nav>
-  </div>
-
-  <div class="container_fluid inner_content ">
-    <div class="row m-0" style="width:100%;">
-      <div class="col-2 pt-3 button_side">
-        <h6>Redigera planen</h6>
-        <div class="creation_buttons">
-          <button class="creation_button" type="button" onclick="show_input(0)">Skapa nod</button><br>
-          <button class="creation_button" type="button" onclick="remove_node()">Ta bort nod</button><br>
-          <button class="creation_button" type="button" onclick="show_input(1)">Skapa anslutning</button><br>
-          <button class="creation_button" type="button" onclick="show_input(2)">Ta bort anslutning</button><br><br>
-          <button class="creation_button" type="button" onclick="save_plan()">Spara din plan</button><br>
-          <button class="creation_button" type="button" onclick="print_new_json()">Exportera</button>
-        </div>
-        <div class="form_create">
-          <div id="create_node" class="form_input" style="display:none;">
-            <h6>SKAPA NOD</h6>
-            <form>
-              <a>Nod namn:</a><br>
-              <input id="create_node_name" type="text" name="name" value=""><br>
-              <a>Nod typ:</a><br>
-              <input id="create_node_content" type="text" name="content" value=""><br>
-              <input id="submit_button" type="button" value="Submit" onclick="submit_node()">
-            </form>
-          </div>
-          <div id="create_link" class="form_input" style="display:none;">
-            <h6>SKAPA ANSLUTNING</h6>
-            <form>
-              <a>Nod #1:</a><br>
-              <input id="node_link_1" type="number" name="id" value=""><br>
-              <a>Nod #2:</a><br>
-              <input id="node_link_2" type="number" name="id" value=""><br>
-              <input id="submit_button" type="button" value="Submit" onclick="submit_link()">
-            </form>
-          </div>
-          <div id="remove_link" class="form_input" style="display:none;">
-            <h6>TA BORT ANSLUTNING</h6>
-            <form>
-              <a>Nod #1:</a><br>
-              <input id="node_link_1_remove" type="number" name="id" value=""><br>
-              <a>Nod #2:</a><br>
-              <input id="node_link_2_remove" type="number" name="id" value=""><br>
-              <input id="submit_button" type="button" value="Submit" onclick="remove_link()">
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="col pt-3">
-        <h6 style="text-align:center;">Din handlingsplan</h6>
-        <div id="chart"></div>
-      </div>
-      <div class="col-2 pt-3 nodes_list_wrapper">
-        <h6>Noder</h6>
-        <div class="nodes_list p-2">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <h5 class="print_text">EXPORT TEXT</h5>
-    <div class="texta">
-    </div>
-  </div>
-
-
-    <script src="../../BubbleV2/js/libraries/jquery-3.2.1.min.js"></script>
-
-    <script src="vistool/js/lib/d3.v3.min.js"></script>
-    <script src="http://d3js.org/queue.v1.min.js"></script>
-    <script src="vistool/js/sankey.js"></script>
-    <script src="vistool/js/lib/d3.chart.js"></script>
-    <script src="vistool/js/lib/d3.chart.sankey.js"></script>
-    <script src="vistool/js/flow-diagram.js"></script>
-    <script src="node_creation.js"></script>
-
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-98785382-1', 'auto');
-    ga('send', 'pageview');
-  </script>
   </body>
 </html>
