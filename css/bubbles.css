@@ -63,7 +63,7 @@ https://stackoverflow.com/questions/90178/make-a-div-fill-the-height-of-the-rema
   overflow-y: scroll;
   overflow-x: hidden;
   border-right: 1px solid rgba(0,0,0,.2)
-
+  /* height:100%; */
   /* height: calc(100%-40px); */
 }
 
@@ -78,18 +78,21 @@ https://stackoverflow.com/questions/90178/make-a-div-fill-the-height-of-the-rema
 }
 .card-body {
   /* max-height: 50%; */
-  height:100%;
+  /* height:100%; */
   /* text-overflow:inherit; */
   /* overflow-y:scroll; */
 }
 #information_project{
-  height:100%;
-  border-left: 1px solid rgba(0,0,0,.2)
+  /* height:100%; */
+  border-left: 1px solid rgba(0,0,0,.2);
+  /* max-height:50px; */
+  max-height:100%;
 }
 #card_description{
   /* max-height:200px; */
   /* max-height:30%; */
-  max-height:300px;
+  max-height:200px;
+  /* height:100%;; */
   overflow-y:scroll;
 }
 
@@ -99,11 +102,6 @@ https://stackoverflow.com/questions/90178/make-a-div-fill-the-height-of-the-rema
   border-left: 1px solid #505050 !important;
   border-right: 1px solid #505050 !important;
 }
-
-/* .nav-item {
-  border-left: 1px solid #5c5b97;
-  border-right: 1px solid #5c5b97;
-} */
 
 #search_bar {
   padding: .15rem .5rem;

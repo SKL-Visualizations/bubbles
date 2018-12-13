@@ -6,7 +6,6 @@
     <link rel="stylesheet" type="text/css" href="css/map.css">
     <link rel="stylesheet" type="text/css" href="css/bubbles.css">
     <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
-
   </head>
   <body>
   <div class="inner_content">
@@ -34,18 +33,10 @@
               <a class="nav-link" onclick="change_view(5)">Karta</a>
             </li>
           </ul>
-          <!-- <form class="form-inline my-2 my-md-0"> -->
-            <!-- <input class="form-control" id="search_bar" type="text" placeholder="Sök..."> -->
-            <!-- <span class="glyphicon glyphicon-search" aria-hidden="true"></span> -->
-
-          <!-- </form> -->
           <a target="_blank" id="about_tog"  class="mx-2" style="cursor:pointer;" onclick="toggle_about(0)" >
-          <!-- <button type="button" class="form-inline my-0 btn" aria-label="Left Align"> -->
             <img src="resources/help-circle.svg"/>
-          <!-- </button> -->
         </a>
         </div>
-      <!-- </nav> -->
     </div>
     <div id="content_container" class="container">
       <div class="row" id="content_row">
@@ -55,17 +46,17 @@
           <ul class="nav flex-column">
             <li class="nav-item">
               <div id="filter_pills">
-                <h6>Fokusområde</h6>
+                <h6>Fokusområden</h6>
                 <span class="badge badge-pill badge-voteit">Digital kompetens</span>
                 <span class="badge badge-pill badge-voteit">Likvärdig tillgång / användning</span>
                 <span class="badge badge-pill badge-voteit">Forskning och uppföljning</span>
-                <br><br><h6>Tid</h6>
+                <br><br><h6>Tidshorizont</h6>
                 <span class="badge badge-pill badge-voteit">Kort</span>
                 <span class="badge badge-pill badge-voteit">Medel</span>
                 <span class="badge badge-pill badge-voteit">Lång</span>
-                <span class="badge badge-pill badge-voteit">N/A</span>
+                <span class="badge badge-pill badge-voteit">Ej angiven</span>
                 <br><br>
-                <h6>Aktörer</h6>
+                <h6>Möjliga aktörer</h6>
                 <span class="badge badge-pill badge-voteit">Departement</span>
                 <span class="badge badge-pill badge-voteit">Forskare</span>
                 <span class="badge badge-pill badge-voteit">Huvudman</span>
@@ -81,31 +72,7 @@
                 <span class="badge badge-pill badge-voteit">Staten</span>
                 <span class="badge badge-pill badge-voteit">Universitet och högskolerådet</span>
                 <span class="badge badge-pill badge-voteit">Vinnova</span>
-
-                <!-- <span class="badge badge-pill badge-primary">Okategoriserad</span> -->
-
               </div>
-            </li>
-            <hr class="pl-0 mb-0">
-              <!-- <br>   -->
-            <li class="nav-item">
-              <!-- <h6>Färg</h6> -->
-              <!-- <br> -->
-              <!-- <a href="#" class="p-1 btn btn-primary btn-sm color-button">Resultat</a> -->
-              <!-- <div class="btn-group btn-group-toggle" data-toggle="buttons"> -->
-              <!-- <label class="px-1 btn btn-info col-but active"> -->
-                <!-- <input type="radio" name="options" id="option1" autocomplete="off" checked> Rådslag -->
-              <!-- </label> -->
-              <!-- <label class="px-1 btn btn-info col-but"> -->
-                <!-- <input type="radio" name="options" id="option2" autocomplete="off"> Fokusområde -->
-              <!-- </label> -->
-            <!-- </div> -->
-            </li>
-            <li class="nav-item">
-              <!-- <a class="nav-link disabled" href="#">Reset</a> -->
-              <!-- <br> -->
-              <!-- <a href="#" onclick="check_me()" class="btn btn-dark">Återställ</a> -->
-              <!-- <br> -->
             </li>
           </ul>
         </div>
@@ -115,21 +82,23 @@
             <svg id="map_svg_area"></svg>
         </div>
         <div class="col-3" id="information_project">
-          <!-- <div id="info_box"> -->
             <div style="width: 18rem;">
               <div class=" my-0">
-                <h5 id="card_header" class="card-title my-0"><br><span>Introduktion</span></h5>
+                <h5 id="card_header" class="card-title "><br><span>Introduktion</span></h5>
               </div>
-                <h6 id="card_meeting_tree"></h6>
+                <h5 id="card_meeting_tree"></h5>
                 <hr>
+                <p id="card_meeting_q"></p>
+                <h6 id="card_link"></h6>
+                <hr style="width:100%; border: 2px solid #5c5b97; border-radius:2px;">
                 <div class="card_body">
-                  Så här fungerar detta verktyg.
+                <h6>Förslag:</h6>
                 <p id="card_description" class="card-text"></p>
+
                 <div id="pills">
                 </div>
               </div>
             </div>
-          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -137,15 +106,13 @@
 <div class="check_text">
 </div>
 <div id="about_box" class="about_box mx-2 my-2">
-  <h5 id="about_header" class="card-title mx-2 my-2">Om Projektet<span style="float:right;cursor:pointer;"><button type="button" class="close" aria-label="Close"><span onclick="toggle_about(1)"aria-hidden="true">&times;</span></button></span></h5>
+  <h5 id="about_header" class="card-title mx-2 my-2">Om verktyget<span style="float:right;cursor:pointer;"><button type="button" class="close" aria-label="Close"><span onclick="toggle_about(1)"aria-hidden="true">&times;</span></button></span></h5>
   <hr>
   <p class='mx-2'>
   Här skriver vi lite information om projektet och hur man använder verktyget
   </p>
   <span style="font-size:10px;"><a target="_blank" href="http://www.victorkesten.com">Victor Kesten</a></span>
-
   <img class="my-1" src="resources/SKL_logga.png"/ style="position:absolute;width:15%; bottom:0; right:27%;">
-
   <img src="resources/känneteckenskoldigiplan.png"/ href="http://skoldigiplan.se" style="margin-left:3%;width:25%;bottom:0; right:0; position:absolute;">
 </div>
   <script src="js/libraries/jquery-3.2.1.min.js"></script>

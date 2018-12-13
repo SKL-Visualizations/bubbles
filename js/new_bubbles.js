@@ -14,14 +14,14 @@ var omrade_titles = {
   2: "Forskning och uppföljning"
 };
 var omradeCenters = {
-  0: { x: width / 3, y: height / 2 },
-  1: { x: width / 2, y: height / 2 },
-  2: { x: 2 * width / 3, y: height / 2 }
+  0 : {x:0, y:0},
+  1 : {x:200,y:0},
+  2 : {x:400, y:0}
 };
 var omrade_titles_x = {
-    0: 200,
-    1: 420,
-    2: 670
+    0: -50,
+    1: 200,
+    2: 400
 };
 var omrade_titles_y = {
   0: 100,
@@ -34,8 +34,8 @@ var reg_titles = {
   1: "Andra Rådslag",
 };
 var regCenters = {
-  0: { x: width / 3, y: height / 2 },
-  1: { x: width / 2, y: height / 2 },
+  0: { x: 250, y: 0 },
+  1: { x: 500, y: 0 },
 };
 var reg_titles_x = {
     0: 250,
@@ -50,15 +50,8 @@ var tid_titles = {
   0: "Kort",
   1: "Medel",
   2: "Lång",
-  3: "N/A"
+  3: "Ej angiven"
 };
-// var tidCenters = {
-//   0: { x: width / 3, y: height / 2 },
-//   1: { x: width / 2, y: height / 2 },
-//   2: { x: 2 * width / 3, y: height / 2 },
-//   3:  { x: 0 , y: 0 }
-// };
-
 var tidCenters = {
     0: {x:250, y:0},
     1: {x:450, y:0},
@@ -89,16 +82,9 @@ var ids_of_filtered = [];
 // COLORS
 var picked_color_set = 1;
 var radslag_colors = {"f5494ed2-de82-4924-b074-caa57c48db12":"#1f77b4","d327c3e7-60ca-4b66-8330-b5df3ebe5611":"#aec7e8","4ffe534b-4072-43d4-98a0-6ea36de44292":"#ff7f0e","78eea2b5-519b-436f-837a-609cfd175874":"#ffbb78","05f2aa56-6abc-4f4c-bf70-279e702d1819":"#2ca02c","4c01d4e4-39ef-4d1b-81f5-393a3020820c":"#98df8a","97d511ac-1004-4c96-82b0-aff9e04b1b6e":"#d62728","f6923640-4d14-4d5e-b56b-f3e6a495a680":"#ff9896","a436c2d1-511f-4022-95c4-4e13f7ac6d90":"#9467bd","1380b7ff-5be8-4a19-898e-b7f211556e0f":"#c5b0d5","eb205a1f-7b14-46cc-8bfe-63af51114dfe":"#8c564b","be62399b-23bf-4eab-a7d0-46adb502772b":"#c49c94","b8849da1-10ea-40e1-a00f-615d5b7b2de7":"#e377c2","206fe9f4-24e6-40e4-9941-8194592b108d":"#f7b6d2"};
-// var omrade_colors = {0 : "#90EE90", 1 : "#e9bd15", 2: "#6666ff", 3 : "#ff6666"};
-// var omrade_colors = {0 : "#ec7079", 1 : "rgba(176,168,214,1)", 2: "#bedda1", 3 : "black"};
-// Mjuka glass färger.
-// var omrade_colors = {0 : "#a3e9c4", 1 : "#f1b3cf", 2: "#f2d7b2", 3 : "black"};
+
 var omrade_colors = {0 : "#b49dc2", 2 : "#e6b87b", 1: "#3ab8a2", 3 : "black"};
 var omrade_stroke_colors = {0:"#906EA5" , 2 : "#DA953B", 1 : "#287E6F", 3 : "black"};
-// var omrade_colors = {0 : "#97ba4c", 2 : "#367d85", 1: "#edbd00", 3 : "black"};
-
-// var omrade_colors = {0 : "#ec7079", 1 : "rgba(176,168,214,1)", 2: "#bedda1", 3 : "black"};
-// var omrade_colors = {0 : "#ec7079", 1 : "rgba(176,168,214,1)", 2: "#bedda1", 3 : "black"};
 
 var zoom = d3.zoom()
     .scaleExtent([.2, 20])
@@ -199,6 +185,7 @@ function createNewNodes(rawData){
 function chart(rawData,t) {
   height = document.getElementById("bubbles_svg_area").clientHeight;
   var maxAmount = d3.max(rawData, function (d) { return +d.total_amount; });
+  $("#card_description").text("Intro text om verktyget.");
 
   var radiusScale = d3.scalePow()
     .exponent(0.5)
@@ -334,7 +321,8 @@ function handleClickCircle(d){
     .style('stroke-width',3);
 
   $("#info_box").css("display","initial");
-  $("#card_header").html("<a href='https://skl.voteit.se"+d.path+"'>#"+d.tag+"</a>" + "</span>");
+  // $("#card_header").html("<a href='https://skl.voteit.se"+d.path+"'>#"+d.tag+"</a>" + "</span>");
+  $("#card_header").html("");
   var meeting_name = ""
   var omrade_t = omrade_titles[d.omrade];
   var question_t = "";
@@ -351,7 +339,9 @@ function handleClickCircle(d){
     }
   }
   // $("#card_meeting_tree").html(meeting_name + " &rarr;\n<br> "+omrade_t+" &rarr;\n<br><br> "+question_t);
-  $("#card_meeting_tree").html(meeting_name + " <br>&rarr;\n<br> "+question_t);
+  $("#card_meeting_tree").html("<b>"+meeting_name + " </b><br>");
+  $("#card_meeting_q").html('<b>Fråga: </b>' + question_t);
+  $("#card_link").html("<a href='https://skl.voteit.se"+d.path+"'>Länk till VoteIT</a>");
 
   $("#card_description").text(d.message);
   // console.log(d.tags);
@@ -495,7 +485,7 @@ var filters = [ 0,0,0,0,0,
                 0,0,0,0];
 var filt_option = 0;
 var filtered_bubbles = [];
-var option_words = ["Digital kompetens","Likvärdig tillgång / användning","Forskning och uppföljning","Annat","Kort","Medel","Lång","N/A",
+var option_words = ["Digital kompetens","Likvärdig tillgång / användning","Forskning och uppföljning","Annat","Kort","Medel","Lång","Ej angiven",
 "Departement","Forskare","Huvudman","Lärare","Kommunpolitiken","SKL","Lärarutbildningarna","Lärosäten","Regeringen","Regionen","Skolledning",
 "Skolverket","Staten","Universitet och högskolerådet","Vinnova","Okategoriserad"];
 
@@ -725,10 +715,10 @@ function prepare_meetings(meeting_information){
   for(var i = 0; i < meeting_information.length; i++){
     // console.log(meeting_information[i].title);
     if(i > 6){
-      radslag_centers[meeting_information[i].uid] = {x: ((meeting_information.length-i) * 200  ), y: (height/2)};
+      radslag_centers[meeting_information[i].uid] = {x: ((meeting_information.length-i) * 200  ), y: (0)};
       radslag_titles_x[meeting_information[i].title] = (meeting_information.length-i) * 200;
     } else {
-      radslag_centers[meeting_information[i].uid] = {x: ((meeting_information.length-i) * 200 +110 ), y: height/2};
+      radslag_centers[meeting_information[i].uid] = {x: ((meeting_information.length-i) * 200 +110 ), y: 0};
       radslag_titles_x[meeting_information[i].title] = (meeting_information.length-i) * 200 + 150;
     }
 
@@ -815,20 +805,20 @@ function create_omrade_titles(){
         if(cy< max_y[x]){
           max_y[x] = cy;
         }
-        c = $(this).css('cx');
-        var cx = c.split('px')[0];
-        cx = parseInt(cx,10);
-        if(cx < max_x[x]){
-          max_x[x] = cx;
-        }
+        // c = $(this).css('cx');
+        // var cx = c.split('px')[0];
+        // cx = parseInt(cx,10);
+        // if(cx < max_x[x]){
+        //   max_x[x] = cx;
+        // }
     return false;
   });
 years.enter().append('text')
   .attr('class', 'omradeTitles')
   .attr('display','initial')
-  // .attr('x', function (d) { return omrade_titles_x[d]; })
+  .attr('x', function (d) { return omrade_titles_x[d]; })
   // .attr('y', function(d){  return omrade_titles_y[d];})
-  .attr('x', function (d) { return max_x[d]+100; })
+  // .attr('x', function (d) { return max_x[d]+100; })
 
   .attr('y', function(d){
      return max_y[d] - 15;
@@ -859,6 +849,7 @@ years.enter().append('text')
   .attr('x', function (d) { return tid_titles_x[d]; })
   .attr('y', function(d){  return max_y[d]-40;return tid_titles_y[d];})
   .attr('text-anchor', 'middle')
+  .attr('font-size','1.5em')
   .text(function (d) { return tid_titles[d]; });
 }
 
@@ -866,13 +857,15 @@ function create_reg_titles(){
   var omradeData = d3.keys(reg_titles);
   var years = g.selectAll('.regTitles')
   .data(omradeData);
-
+  console.log('wat');
 years.enter().append('text')
   .attr('class', 'regTitles')
   .attr('display','initial')
   .attr('x', function (d) { return reg_titles_x[d]; })
-  .attr('y', function(d){  return reg_titles_y[d];})
+  .attr('y', function(d){  return -20;})
   .attr('text-anchor', 'middle')
+  .attr('font-size','1.5em')
+
   .text(function (d) { return reg_titles[d]; });
 }
 
@@ -901,7 +894,7 @@ function toggle_about(a){
   }
   about_showed = a;
 }
-var title_created = [0,0,0,0];
+var title_created = [0,0,0,0,0];
 
 
 
