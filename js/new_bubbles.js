@@ -883,7 +883,7 @@ function toggle_title(opt){
   if(opt == 1){
     if(title_created[1] == 0){
       // window.setTimeout(create_omrade_titles, 1000);
-
+      create_omrade_titles();
       title_created[1] = 1;
     }
     $(".omradeTitles").css("display","initial");
