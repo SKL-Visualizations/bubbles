@@ -1,92 +1,597 @@
 [
     {
-      "namn" : "Regionalt Rådslag | Örebro",
-      "id" : 0,
-      "coordinates" : {
-        "x" : 15.2134,
-        "y" : 59.2753
-      },
-      "kommuner" : ["Lund","Skövde","Växjö","Karlstad","Umeå","Norrköping","Linköping","Skellefteå","Örebro","Jönköping"]
+        "namn":"Rådslag om Skolans Digitalisering under Almedalsveckan 2018",
+        "id":0,
+        "coordinates":{
+            "x":18.591,
+            "y":57.6406
+        },
+        "kommuner":[
+            "Sollentuna",
+            "Göteborg",
+            "Gotland",
+            "Kalmar",
+            "Lidingö",
+            "Skellefteå",
+            "Borgholm",
+            "Hallsberg"
+        ]
     },
     {
-      "namn" : "Regionalt Rådslag | Jönköping",
-      "id" : 1,
-      "coordinates" : {
-        "x" : 14.1618,
-        "y" : 57.7826
-      },
-      "kommuner" : []
+        "namn":"Rådslag om Skolans Digitalisering",
+        "id":1,
+        "coordinates":{
+            "x":0,
+            "y":0
+        },
+        "kommuner":[
+            "Sollentuna",
+            "Göteborg",
+            "Gotland",
+            "Kalmar",
+            "Lidingö",
+            "Skellefteå",
+            "Borgholm",
+            "Hallsberg",
+            "Ale",
+            "Alvesta",
+            "Arboga",
+            "Stockholm"
+        ]
     },
     {
-      "namn" : "Rådslag #16 kommuner",
-      "id" : 2,
-      "coordinates" : {
-        "x" : 18.0686,
-        "y" : 59.3293
-      },
-      "kommuner" : ["Skellefteå","Lund","Växjö","Jönköping","Umeå","Linköping","Uppsala","Luleå","Örebro","Karlstad","Sundsvall","Gävle","Eskilstuna","Skövde","Norrköping","Helsingborg","Västerås"]
+        "namn":"Rådslag 1 \\| Fokusområde forskning och uppföljning",
+        "id":2,
+        "coordinates":{
+            "x":0,
+            "y":0
+        },
+        "kommuner":[
+            "Stockholm",
+            "Eskilstuna",
+            "Uppsala",
+            "Gävle",
+            "Norrköping",
+            "Malmö"
+        ]
     },
     {
-      "namn" : "Regionalt Rådslag | Västerbotten",
-      "id" : 3,
-      "coordinates" : {
-        "x" : 20.9509,
-        "y" : 64.7502
-      },
-      "kommuner" : ["Vännäs","Robertsfors", "Skellefteå"]
+        "namn":"Regionalt Rådslag \\| Skåne",
+        "id":3,
+        "coordinates":{
+            "x":13.0038,
+            "y":55.605
+        },
+        "kommuner":[
+            "Hässleholm",
+            "Kävlinge",
+            "Osby",
+            "Bromölla",
+            "Hörby",
+            "Eslöv",
+            "Lund",
+            "Trelleborg",
+            "Östra Göinge",
+            "Lomma",
+            "Malmö",
+            "Staffanstorp",
+            "Skurup",
+            "Tomelilla",
+            "Ystad"
+        ]
     },
     {
-      "namn" : "Regionalt Rådslag | Norrbotten",
-      "id" : 4,
-      "coordinates" : {
-        "x" : 22.1567,
-        "y" : 65.5848
-      },
-      "kommuner" : ["Luleå","Kiruna","Boden","Pitea","Gällivare","Happaranda","Alvsbyn","Lappland","Pajala"]
+        "namn":"Rådslag 1 \\| Fokusområde Likvärdig tillgång och användning",
+        "id":4,
+        "coordinates":{
+            "x":0,
+            "y":0
+        },
+        "kommuner":[
+            "Västerås",
+            "Stockholm",
+            "Malmö",
+            "Skellefteå"
+        ]
     },
     {
-      "namn" : "Regionalt Rådslag | Östergötland",
-      "id" : 5,
-      "coordinates" : {
-        "x" : 15.6214,
-        "y" : 58.4108
-      },
-      "kommuner" : []
+        "namn":"Rådslag 1 \\| Fokusområde Digital kompetens för alla i skolväsendet",
+        "id":5,
+        "coordinates":{
+            "x":0,
+            "y":0
+        },
+        "kommuner":[
+            "Stockholm",
+            "Malmö",
+            "Norrköping",
+            "Göteborg",
+            "Kungälv",
+            "Norrtälje",
+            "Trelleborg",
+            "Kramfor",
+            "Uppsala",
+            "Umeå",
+            "Huddinge"
+        ]
     },
     {
-      "namn" : "Regionalt Rådslag | Skåne",
-      "id" : 6,
-      "coordinates" : {
-        "x" : 13.0038,
-        "y" : 55.6050
-      },
-      "kommuner" : ["Ystad","Malmö","Staffanstorp","Skurup","Tomelilla","Östra Göinge","Eslöv","Lund","Lomma","Trelleborg","Hässleholm","Kävlinge","Osby","Bromölla","Hörby"]
+        "namn":"Regionalt Rådslag \\| Östergötland",
+        "id":6,
+        "coordinates":{
+            "x":15.6214,
+            "y":58.4108
+        },
+        "kommuner":[
+            "Stockholm"
+        ]
     },
     {
-      "namn" : "Regionalt Rådslag | Göteborg",
-      "id" : 7,
-      "coordinates" : {
-        "x" : 11.9746,
-        "y" : 57.7089
-      },
-      "kommuner" : ["Stenungsund","Lerum","Kungälv","Alingsås","Mölndal","Öckerö","Göteborg","Kungsbacka","Tjörn","Ale","Härryda"]
+        "namn":"Regionalt Rådslag \\| Göteborg",
+        "id":7,
+        "coordinates":{
+            "x":11.9746,
+            "y":57.7089
+        },
+        "kommuner":[
+            "Mölndal",
+            "Göteborg",
+            "Härryda",
+            "Kungsbacka",
+            "Tjörn",
+            "Ale",
+            "Öckerö",
+            "Stenungsund",
+            "Lerum",
+            "Kungälv",
+            "Alingsås"
+        ]
     },
     {
-      "namn" : "Regionalt Rådslag | Norrköping",
-      "id" : 8,
-      "coordinates" : {
-        "x" : 16.1924,
-        "y" : 58.5877
-      },
-      "kommuner" : ["Linköping","Norrköping","Ödeshög"]
+        "namn":"Learning forum 2018",
+        "id":8,
+        "coordinates":{
+            "x":12.9746,
+            "y":57.7089
+        },
+        "kommuner":[
+            "Uppsala",
+            "Gävle",
+            "Lund",
+            "Karlshamn",
+            "Linköping",
+            "Göteborg",
+            "Danderyd",
+            "Sollentuna",
+            "Lidköping",
+            "Västerås",
+            "Jönköping",
+            "Stockholm",
+            "Falköping",
+            "Örebro",
+            "Malmö",
+            "Halmstad",
+            "Torsås",
+            "Trollhättan",
+            "Hässleholm",
+            "Karlstad",
+            "Norrköping",
+            "Partille"
+        ]
     },
     {
-      "namn" : "Regionalt Rådslag | Gotland",
-      "id" : 9,
-      "coordinates" : {
-        "x" : 18.2948,
-        "y" : 57.6348
-      },
-      "kommuner" : ["Gotland"]
+        "namn":"Regionalt Rådslag \\| Norrbotten",
+        "id":9,
+        "coordinates":{
+            "x":22.1567,
+            "y":65.5848
+        },
+        "kommuner":[
+            "Kiruna",
+            "Piteå",
+            "Luleå",
+            "Pajala",
+            "Haparanda",
+            "Boden",
+            "Älvsbyn",
+            "Lappland",
+            "Gällivare"
+        ]
+    },
+    {
+        "namn":"Regionalt Rådslag \\| Västerbotten",
+        "id":10,
+        "coordinates":{
+            "x":20.9509,
+            "y":64.7502
+        },
+        "kommuner":[
+            "Vännäs",
+            "Robertsfors"
+        ]
+    },
+    {
+        "namn":"Rådslag Gymnasiekonferens 2018",
+        "id":11,
+        "coordinates":{
+            "x":0,
+            "y":0
+        },
+        "kommuner":[
+            "Stockholm",
+            "Ale",
+            "Flens"
+        ]
+    },
+    {
+        "namn":"Rådslag #16er",
+        "id":12,
+        "coordinates":{
+            "x":20.0686,
+            "y":59.3293
+        },
+        "kommuner":[
+            "Ale",
+            "Stockholm"
+        ]
+    },
+    {
+        "namn":"Rådslag Gymnasiekonferens 2018",
+        "id":13,
+        "coordinates":{
+            "x":0,
+            "y":0
+        },
+        "kommuner":[
+            "Stockholm",
+            "Ale",
+            "Flen"
+        ]
+    },
+    {
+        "namn":"Regionalt Rådslag \\| Jönköping",
+        "id":14,
+        "coordinates":{
+            "x":14.1618,
+            "y":57.7826
+        },
+        "kommuner":[
+            "Stockholm"
+        ]
+    },
+    {
+        "namn":"Regionalt Rådslag \\| Gotland",
+        "id":15,
+        "coordinates":{
+            "x":18.2948,
+            "y":57.6348
+        },
+        "kommuner":[
+            "Gotland"
+        ]
+    },
+    {
+        "namn":"Regionalt Rådslag \\| Örebro",
+        "id":16,
+        "coordinates":{
+            "x":15.2134,
+            "y":59.2753
+        },
+        "kommuner":[
+            "Karlskoga",
+            "Örebro",
+            "Hellefors",
+            "Laxå",
+            "Degerfors",
+            "Kumla",
+            "Lekeberg",
+            "Askersund",
+            "Hallsberg"
+        ]
+    },
+    {
+        "namn":"Rådslag 2 \\| Fokusområde Digital kompetens för alla i skolväsendet",
+        "id":17,
+        "coordinates":{
+            "x":0,
+            "y":0
+        },
+        "kommuner":[
+            "Göteborg",
+            "Östersund",
+            "Stockholm",
+            "Skellefteå",
+            "Trollhättan",
+            "Lycksele",
+            "Åsele",
+            "Sävsjö",
+            "Kalmar"
+        ]
+    },
+    {
+        "namn":"Rådslag 2 \\| Fokusområde forskning och uppföljning",
+        "id":18,
+        "coordinates":{
+            "x":0,
+            "y":0
+        },
+        "kommuner":[
+            "Stockholm",
+            "Ale"
+        ]
+    },
+    {
+        "namn":"Det öppna rådslaget för handlingsplanens fortsatta arbete",
+        "id":19,
+        "coordinates":{
+            "x":0,
+            "y":0
+        },
+        "kommuner":[
+            "Umeå",
+            "Östersund",
+            "Gotland",
+            "Gnosjö",
+            "Göteborg",
+            "Eskilstuna",
+            "Burlöv",
+            "Vaggeryd",
+            "Sollentuna",
+            "Kalmar",
+            "Västerås",
+            "Stockholm",
+            "Nässjö",
+            "Stenungsund",
+            "Kristianstad",
+            "Uppsala",
+            "Värnamo",
+            "Norrköping",
+            "Färgelanda",
+            "Linköping",
+            "Kungsbacka",
+            "Örnsköldsvik",
+            "Karlstads",
+            "Växjö",
+            "Halmstad",
+            "Storuman"
+        ]
+    },
+    {
+        "namn":"Regionalt Rådslag \\| Kronoberg",
+        "id":20,
+        "coordinates":{
+            "x":14.4115,
+            "y":56.7183
+        },
+        "kommuner":[
+            "Stockholm"
+        ]
+    },
+    {
+        "namn":"Rådslag | Likvärdigt lärande",
+        "id":21,
+        "coordinates":{
+          "x":21.0686,
+          "y":59.3293
+        },
+        "kommuner":[
+            "Sollentuna",
+            "Göteborg",
+            "Gotland",
+            "Kalmar",
+            "Lidingö",
+            "Skellefteå",
+            "Borgholm",
+            "Hallsberg",
+            "Ale",
+            "Alvesta",
+            "Arboga",
+            "Stockholm",
+            "Eskilstuna",
+            "Uppsala",
+            "Gävle",
+            "Norrköping",
+            "Malmö",
+            "Kävlinge",
+            "Västerås",
+            "Kungälv",
+            "Norrtälje",
+            "Trelleborg",
+            "Kramfors",
+            "Umeå",
+            "Huddinge",
+            "Flen",
+            "Östersund",
+            "Trollhättan",
+            "Lycksele",
+            "Åsele",
+            "Sävsjö",
+            "Nacka",
+            "Sandviken",
+            "Linköping",
+            "Sundbyberg"
+        ]
+    },
+    {
+        "namn":"Regionalt Rådslag \\| Norrköping",
+        "id":21,
+        "coordinates":{
+            "x":16.1924,
+            "y":58.5877
+        },
+        "kommuner":[
+            "Linköping",
+            "Norrköping",
+            "Ödehög"
+        ]
+    },
+    {
+        "namn":"Regionalt Rådslag \\| Uppsala",
+        "id":22,
+        "coordinates":{
+            "x":17.6389,
+            "y":59.8586
+        },
+        "kommuner":[
+            "Knivsta",
+            "Uppsala",
+            "Älvkarleby",
+            "Håbo",
+            "Enköping",
+            "Östhammar",
+            "Heby",
+            "Tierp"
+        ]
+    },
+    {
+        "namn":"Regionalt Rådslag \\| Västmanland",
+        "id":23,
+        "coordinates":{
+            "x":16.2159,
+            "y":59.6714
+        },
+        "kommuner":[
+            "Sala",
+            "Surahammar",
+            "Västerås"
+        ]
+    },
+    {
+        "namn":"Regionalt Rådslag \\| Värmland",
+        "id":24,
+        "coordinates":{
+            "x": 13.5115,
+            "y":59.4022
+        },
+        "kommuner":[
+            "Munkfors",
+            "Sunne",
+            "Kristinehamn",
+            "Grums",
+            "Karlstad",
+            "Hagfors",
+            "Filipstad"
+        ]
+    },
+    {
+        "namn":"Regionalt Rådslag \\| Stockholm",
+        "id":25,
+        "coordinates":{
+            "x": 18.0686,
+            "y":59.3293
+        },
+        "kommuner":[
+            "Stockholm"
+        ]
+    },
+    {
+        "namn":"Regionalt Rådslag \\| Sörmland",
+        "id":26,
+        "coordinates":{
+            "x": 16.7519,
+            "y":59.0336
+        },
+        "kommuner":[
+            "Flen",
+            "Katrineholm",
+            "Sörmland"
+
+        ]
+    },
+    {
+        "namn":"Rådslag Örebro Län",
+        "id":27,
+        "coordinates":{
+            "x": 15.2134,
+            "y":59.2753
+        },
+        "kommuner":[
+            "Umeå",
+            "Lund",
+            "Skellefteå",
+            "Örebro",
+            "Jönköping",
+            "Linköping",
+            "Norrköping",
+            "Växjo",
+            "Lund",
+            "Karlstad",
+            "Skövde"
+        ]
+    },
+    {
+        "namn":"Rådslag friskolorna",
+        "id":27,
+        "coordinates":{
+          "x":22.0686,
+          "y":59.3293
+        },
+        "kommuner":[
+            "Stockholm"
+        ]
+    },
+    {
+        "namn":"Rådslag friskolorna",
+        "id":27,
+        "coordinates":{
+          "x":22.0686,
+          "y":59.3293
+        },
+        "kommuner":[
+            "Stockholm"
+        ]
+    },
+    {
+        "namn":"Rådslag framtidens lärande",
+        "id":28,
+        "coordinates":{
+          "x":23.0686,
+          "y":59.3293
+        },
+        "kommuner":[
+            "Halmstad",
+            "Trollhättan",
+            "Skellefteå",
+            "Ängelholm",
+            "Stockholm"
+        ]
+    },
+    {
+        "namn":"Rådslag förskola",
+        "id":29,
+        "coordinates":{
+          "x":24.0686,
+          "y":59.3293
+        },
+        "kommuner":[
+            "Stockholm"
+        ]
+    },
+    {
+        "namn":"Rådslag fok2 Forskning och Uppföljning",
+        "id":30,
+        "coordinates":{
+          "x":25.0686,
+          "y":59.3293
+        },
+        "kommuner":[
+            "Dalarna",
+            "Karlstad",
+            "Malmö",
+            "Helsingborg",
+            "Göteborg",
+            "Stockholm"
+        ]
+    },
+    {
+        "namn":"Medborgarskap",
+        "id":31,
+        "coordinates":{
+          "x":26.0686,
+          "y":59.3293
+        },
+        "kommuner":[
+            "Stockholm"
+        ]
     }
 ]

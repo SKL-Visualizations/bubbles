@@ -67,7 +67,7 @@ function zoomed_map() {
 
 function zoomed2_map(){
   project_circles_map.attr("transform",project_transform_map(d3.event.transform));
-  project2_circles_map.attr("transform",project_transform_map(d3.event.transform));
+  // project2_circles_map.attr("transform",project_transform_map(d3.event.transform));
   // cities_circles.attr("r",circle_size_increase);
   project_circles_map.attr("r",project_size_increase_map);
 }
@@ -119,78 +119,19 @@ function load_map_components_map(){
   q.defer(d3.json, 'data/map/rådslag.json');
   q.defer(d3.json, "data/map/sweden_kommuner.topo.json");
   // q.defer(d3.csv, "data/real/all_proposals.csv");
-  q.defer(d3.json, 'data/map/kommuner.json');
   // q.defer(d3.json, 'data/map/rådslag.json');
 
   q.awaitAll(function(error, data_list){
     if(error) throw error;
     // Organize colors first.
     // console.log(data_list[2]);
-    // letsplay(data_list[2]);
+    // letsplay_map(data_list[2]);
 
     organize_kommuner_map(data_list[0]);
     create_map(data_list[1])
-    create_regions_map(data_list[2]);
     create_projects_map(data_list[0]);
     create_legend_map();
   });
-}
-
-
-function create_regions_map(data){
-   project2_circles_map = projects_2_map.selectAll("circle")
-       .data(data).enter()
-       .append("circle");
-
-     project2_circles_map.attr("id",function(d){return "red-"+d.id})
-     .attr("cx", function (d) { return projection_map([d.coordinates.x,d.coordinates.y])[0];})
-     .attr("cy", function (d) { return projection_map([d.coordinates.x,d.coordinates.y])[1];})
-     .attr("r", function(d){
-       return 2;
-     })
-     .classed("bubble","true")
-     .classed("sub-region","true")
-     .style("stroke-width", .5)
-     .style("stroke", "#000")
-     .attr("fill", function(d){
-       // if(kommuner_col[d.properties])
-       return "#C8A2C8";
-     })
-     .on('mouseover', handleMouseOverCircle)
-     .on('mouseout', handleMouseOutCircle);
-
-     function handleMouseOverCircle(d){
-       tooltip2_visible_map = 1;
-       // var name = d.properties.KNNAMN;
-       var name = d.namn;
-       tooltip2_map.transition().style("opacity", .9);
-       tooltip2_map.html("<b>"+name + "</b>")
-         .style("left", (d3.event.pageX) + "px")
-         .style("top", (d3.event.pageY - 28) + "px")
-         .style("max-width",  200 + "px");
-     }
-     function handleMouseOutCircle(d){
-       tooltip2_visible_map = 0;
-       tooltip2_map.transition().style("opacity", 0).style("display","initial");
-     }
-
-  komm_map.attr("fill",function(d){
-       var t = d.properties.KNNAMN;
-       for(var j = 0; j < data.length; j++){
-         var ob = data[j];
-         for(var i = 0; i < ob.kommuner.length; i++){
-           var oj = ob.kommuner[i];
-           if(oj.match(t) && kommuner_col_map[t] != 1){
-             kommuner_col_map[t] = 2;
-             return colors_map["exists"];
-           }
-         }
-       }
-       if(kommuner_col_map[t] != 1){
-         return colors_map["grey"];
-       }
-       return colors_map["exists"];
-     });
 }
 
 var meetings_map = [
@@ -388,8 +329,7 @@ function create_projects_map(data){
        }
 }
 var project_titles_map = {
-  0: "Regionala rådslag",
-  1: "Andra rådslag"
+  0: "Rådslag",
 };
 
 function create_legend_map(){

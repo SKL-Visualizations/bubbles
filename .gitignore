@@ -1,3 +1,6 @@
 
 links.txt
 /BubbleV2/data/real/all_meetings.json
+meeting_info.json
+create_ranking.js
+data/real/all_proposals.csv
