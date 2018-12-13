@@ -233,7 +233,7 @@ function chart(rawData,t) {
   }
   // Create the title elements
   create_radslag_titles();
-  create_omrade_titles();
+  // create_omrade_titles();
   create_tid_titles();
   create_reg_titles();
   create_legend();
@@ -797,12 +797,24 @@ function create_omrade_titles(){
   var omradeData = d3.keys(omrade_titles);
   var years = g.selectAll('.omradeTitles')
   .data(omradeData);
+  var max_y = [0,0,0];
+  bubbles.filter(function(d){
+        var x = d.omrade;
+        if(d.cy> max_y[x]){
+          max_y[x] = d.cy;
+        }
+    return false;
+  });
 
 years.enter().append('text')
   .attr('class', 'omradeTitles')
   .attr('display','none')
   .attr('x', function (d) { return omrade_titles_x[d]; })
-  .attr('y', function(d){  return omrade_titles_y[d];})
+  // .attr('y', function(d){  return omrade_titles_y[d];})
+  .attr('y', function(d){
+     return -1*max_y[d];
+   })
+
   .attr('text-anchor', 'middle')
   .text(function (d) { return omrade_titles[d]; });
 }
@@ -860,6 +872,7 @@ function toggle_about(a){
   }
   about_showed = a;
 }
+var title_created = [0,0,0,0];
 
 function toggle_title(opt){
   if(opt == 2){
@@ -868,6 +881,11 @@ function toggle_title(opt){
     $(".radslagTitles").css("display","none");
   }
   if(opt == 1){
+    if(title_created[1] == 0){
+      // window.setTimeout(create_omrade_titles, 1000);
+
+      title_created[1] = 1;
+    }
     $(".omradeTitles").css("display","initial");
   } else {
     $(".omradeTitles").css("display","none");

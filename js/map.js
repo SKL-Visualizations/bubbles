@@ -3,8 +3,8 @@
 
 //https://www.gps-coordinates.net/
 var cities_map;
-var width_map = 800,
-    height_map = 535;
+var width_map =  document.getElementById("bubbles_svg_area").clientWidth;
+var height_map = document.getElementById("bubbles_svg_area").clientHeight;
 
 var tooltip2_visible_map = 0;
 
