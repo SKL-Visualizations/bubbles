@@ -716,10 +716,10 @@ function prepare_meetings(meeting_information){
     // console.log(meeting_information[i].title);
     if(i > 6){
       radslag_centers[meeting_information[i].uid] = {x: ((meeting_information.length-i) * 200  ), y: (0)};
-      radslag_titles_x[meeting_information[i].title] = (meeting_information.length-i) * 200;
+      radslag_titles_x[meeting_information[i].title] = (meeting_information.length-i) * 200 - 50;
     } else {
       radslag_centers[meeting_information[i].uid] = {x: ((meeting_information.length-i) * 200 +110 ), y: 0};
-      radslag_titles_x[meeting_information[i].title] = (meeting_information.length-i) * 200 + 150;
+      radslag_titles_x[meeting_information[i].title] = (meeting_information.length-i) * 200 +50;
     }
 
     // Need some speciality here due to size and clashing.
@@ -735,7 +735,13 @@ function prepare_meetings(meeting_information){
     } else if(meeting_information[i].title.match('Rådslag 1 \\| Fokusområde Digital kompetens för alla i skolväsendet')){
       radslag_titles_x[meeting_information[i].title] = (meeting_information.length-i) * 200 + 130;
       radslag_titles_y[meeting_information[i].title] = 120;
-
+    } else if(meeting_information[i].title.match('R\u00e5dslag om Skolans Digitalisering under Almedalsveckan 2018')){
+      radslag_titles_x[meeting_information[i].title] = (meeting_information.length-i) * 200;
+      radslag_titles_y[meeting_information[i].title] = 120;
+    }
+    else if(meeting_information[i].title.match('Det \u00f6ppna r\u00e5dslaget f\u00f6r handlingsplanens fortsatta arbete')){
+      radslag_titles_x[meeting_information[i].title] = (meeting_information.length-i) * 200;
+      radslag_titles_y[meeting_information[i].title] = 100;
     }
      else {
       radslag_titles_y[meeting_information[i].title] = 170;

@@ -1,0 +1,556 @@
+{
+    "invite_tickets":{
+        "open":0,
+        "closed":0
+    },
+    "uid":"2698e8d0-e503-4b7b-8e59-dcd758f04fa4",
+    "created":1538655261,
+    "title":"Regionalt R\u00e5dslag | V\u00e4stmanland",
+    "start_time":1538655918,
+    "type_name":"Meeting",
+    "manifest":{
+        "DiscussionPost":0,
+        "Proposal":21,
+        "Poll":0,
+        "InviteTicket":0,
+        "AgendaItem":6
+    },
+    "participants":[
+        "test1",
+        "carlheath",
+        "lars-lingman",
+        "martin-h-skl",
+        "christian-magnusson-skolverket",
+        "jupiter",
+        "uranus",
+        "anders",
+        "johanna-karlen",
+        "saturnus",
+        "hanna-forsberg",
+        "magnus",
+        "pernilla-nilsson",
+        "merkurius",
+        "lacouture",
+        "mars",
+        "tenneh",
+        "neptunus",
+        "anna-carlsson",
+        "jorden",
+        "annika-agelii-genlott",
+        "jan-hylen",
+        "admin",
+        "johan-schiff",
+        "venus",
+        "robin"
+    ],
+    "end_time":1543329359,
+    "path":"/regionalt-radslag-vastmanland",
+    "contents":[
+        {
+            "uid":"4f8888fc-a71a-4f9a-91dd-40c01fc17f1a",
+            "created":1538655786,
+            "title":"1) Hur kan samh\u00e4llet bidra till en bra och likv\u00e4rdig utveckling av digital kompetens f\u00f6r alla inom skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":0,
+                "Proposal":14,
+                "Poll":0
+            },
+            "end_time":1543329354,
+            "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for",
+            "contents":[
+                {
+                    "text":"Forskningsrapporter som kan p\u00e5visa kokreta resultat, \u00f6kad m\u00e5luppfyllese\n#TidMedel #L\u00e4ros\u00e4ten #Skolforskningsinstitutet",
+                    "uid":"0678c8d3-6f3f-4fc7-9449-0a686a75f38a",
+                    "contents":[
+
+                    ],
+                    "created":1543325433,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/0678c8d3-6f3f-4fc7-9449-0a686a75f38a",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "uranus"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "l\u00e4ros\u00e4ten",
+                        "skolforskningsinstitutet",
+                        "uranus-2"
+                    ],
+                    "aid":"uranus-2"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r Skapa f\u00f6ruts\u00e4ttningar f\u00f6r utbildningsinsatser p\u00e5 alla niv\u00e5er (politik, l\u00e4rarutbildning, f\u00f6rvaltningsledning, skolledning, pedagoger)\n#TidMedel #Skolverket #Regeringen",
+                    "uid":"177d8fd8-81a5-4492-aad0-17260a9041ec",
+                    "contents":[
+
+                    ],
+                    "created":1543325693,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/177d8fd8-81a5-4492-aad0-17260a9041ec",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "jupiter"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "skolverket",
+                        "regeringen",
+                        "jupiter-3"
+                    ],
+                    "aid":"jupiter-3"
+                },
+                {
+                    "text":"Tilldela resurser, nationell finansiering\n#TidKort #Departement",
+                    "uid":"24140fb7-f07c-4530-8086-ea844702eb39",
+                    "contents":[
+
+                    ],
+                    "created":1543325758,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/24140fb7-f07c-4530-8086-ea844702eb39",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "departement",
+                        "mars-3"
+                    ],
+                    "aid":"mars-3"
+                },
+                {
+                    "text":"Forskning om digitaliseringen bidrar till \u00f6kad m\u00e5luppfyllelse efterfr\u00e5gas f\u00f6r att s\u00e4kerst\u00e4lla om vi arbetar p\u00e5 r\u00e4tt s\u00e4tt idag.\n#TidL\u00e5ng #L\u00e4ros\u00e4ten #Skolverket",
+                    "uid":"28a9c037-77df-405b-819b-300c6ac6cf3b",
+                    "contents":[
+
+                    ],
+                    "created":1543325250,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/28a9c037-77df-405b-819b-300c6ac6cf3b",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "l\u00e4ros\u00e4ten",
+                        "skolverket",
+                        "mars-1"
+                    ],
+                    "aid":"mars-1"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r: Skapa forum f\u00f6r dialog och m\u00f6ten s\u00e5 att utbyte av kunskap och erfarenhet kan delas mellan skolv\u00e4sendet och \u00f6vriga samh\u00e4llsakt\u00f6rer.\n#TidL\u00e5ng #SKL #Skolverket",
+                    "uid":"3cb69756-4f3c-4f62-8181-a7333b00fb54",
+                    "contents":[
+
+                    ],
+                    "created":1543325185,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/3cb69756-4f3c-4f62-8181-a7333b00fb54",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "jupiter"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "skl",
+                        "skolverket",
+                        "jupiter-1"
+                    ],
+                    "aid":"jupiter-1"
+                },
+                {
+                    "text":"Riktade bidrag som garant f\u00f6r likv\u00e4rdigheten",
+                    "uid":"455e6677-5fc8-4c8b-bcfc-6e8f6095bbf1",
+                    "contents":[
+
+                    ],
+                    "created":1543325873,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/455e6677-5fc8-4c8b-bcfc-6e8f6095bbf1",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "uranus"
+                    ],
+                    "tags":[
+                        "uranus-3"
+                    ],
+                    "aid":"uranus-3"
+                },
+                {
+                    "text":"Likv\u00e4rdig nationell digital r\u00e4ttighet respektive resursf\u00f6rdelning som m\u00f6jligg\u00f6r tillg\u00e4nglighet f\u00f6r alla. VIkten av nyckelbegrepp och gemensamt spr\u00e5k.",
+                    "uid":"67d0746d-4005-43a0-8d3c-a684386cdd51",
+                    "contents":[
+
+                    ],
+                    "created":1543326121,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/67d0746d-4005-43a0-8d3c-a684386cdd51",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "merkurius"
+                    ],
+                    "tags":[
+                        "merkurius-5"
+                    ],
+                    "aid":"merkurius-5"
+                },
+                {
+                    "text":"Tydliga m\u00e5l\n#TidKort #Departement #Huvudman",
+                    "uid":"78cb1bfe-e890-4f32-b546-8424354191d6",
+                    "contents":[
+
+                    ],
+                    "created":1543325138,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/78cb1bfe-e890-4f32-b546-8424354191d6",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "uranus"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "departement",
+                        "huvudman",
+                        "uranus-1"
+                    ],
+                    "aid":"uranus-1"
+                },
+                {
+                    "text":"Relevant kompetensutveckling via tillg\u00e4ngliga digitala forum och m\u00f6jlighet att individanpassa utifr\u00e5n behov.\n#TidKort #Huvudman #Regeringen",
+                    "uid":"8cfe7d9e-73fd-495a-b10c-818e9218c014",
+                    "contents":[
+
+                    ],
+                    "created":1543325552,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/8cfe7d9e-73fd-495a-b10c-818e9218c014",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "merkurius"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "huvudman",
+                        "regeringen",
+                        "merkurius-3"
+                    ],
+                    "aid":"merkurius-3"
+                },
+                {
+                    "text":"Riktade bidrag som garant f\u00f6r likv\u00e4rdigheten",
+                    "uid":"8fc0b3e3-91a5-411b-a025-4eaa966582e8",
+                    "contents":[
+
+                    ],
+                    "created":1543325925,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/8fc0b3e3-91a5-411b-a025-4eaa966582e8",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "uranus"
+                    ],
+                    "tags":[
+                        "uranus-4"
+                    ],
+                    "aid":"uranus-4"
+                },
+                {
+                    "text":"Forskning hur undervisningen fr\u00e4mjas och/eller h\u00e4mmas  av digitaliseringen efterfr\u00e5gas\n#L\u00e4ros\u00e4ten #Skolverket #TidL\u00e5ng",
+                    "uid":"a1b360b2-84dd-4cac-b601-2be9a9bb4578",
+                    "contents":[
+
+                    ],
+                    "created":1543325644,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/a1b360b2-84dd-4cac-b601-2be9a9bb4578",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "l\u00e4ros\u00e4ten",
+                        "skolverket",
+                        "tidl\u00e5ng",
+                        "mars-2"
+                    ],
+                    "aid":"mars-2"
+                },
+                {
+                    "text":"Underst\u00f6dja med gemsam kompetens\n#TidKort #Skolverket",
+                    "uid":"cb525c74-240b-4b22-a07e-de24ebb1c267",
+                    "contents":[
+
+                    ],
+                    "created":1543325890,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/cb525c74-240b-4b22-a07e-de24ebb1c267",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "skolverket",
+                        "mars-4"
+                    ],
+                    "aid":"mars-4"
+                },
+                {
+                    "text":"Uppf\u00f6ljning av resultaten\r\n#TidMedel #Skolinspektionen",
+                    "uid":"d0b4bf54-2cfd-40e7-b38f-7ab8a572b2d5",
+                    "contents":[
+
+                    ],
+                    "created":1543325943,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/d0b4bf54-2cfd-40e7-b38f-7ab8a572b2d5",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "skolinspektionen",
+                        "mars-5"
+                    ],
+                    "aid":"mars-5"
+                },
+                {
+                    "text":"Ansvar och medvetenhet om risker och riskbetende .\n#TidKort #EdTech #Regeringen",
+                    "uid":"d0b51061-ff9f-4296-877f-b9c41ec33026",
+                    "contents":[
+
+                    ],
+                    "created":1543325887,
+                    "path":"/regionalt-radslag-vastmanland/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/d0b51061-ff9f-4296-877f-b9c41ec33026",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "merkurius"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "edtech",
+                        "regeringen",
+                        "merkurius-4"
+                    ],
+                    "aid":"merkurius-4"
+                }
+            ]
+        },
+        {
+            "uid":"800892b3-4f10-4509-ac14-27ec4d17ae09",
+            "created":1538655814,
+            "title":"2) Vilka \u00e4r de fr\u00e4msta hindren f\u00f6r en bra och likv\u00e4rdig utveckling av digital kompetens i skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":0,
+                "Proposal":0,
+                "Poll":0
+            },
+            "end_time":null,
+            "path":"/regionalt-radslag-vastmanland/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i",
+            "contents":[
+
+            ]
+        },
+        {
+            "uid":"23c6a8a1-a9a9-433a-af2b-54bfae71cab6",
+            "created":1538655834,
+            "title":"3) Hur kan samh\u00e4llet bidra till att digitaliseringen av skolv\u00e4sendet blir likv\u00e4rdig, g\u00e4llande b\u00e5de tillg\u00e5ng och anv\u00e4ndning?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":0,
+                "Proposal":5,
+                "Poll":0
+            },
+            "end_time":1543329354,
+            "path":"/regionalt-radslag-vastmanland/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade",
+            "contents":[
+                {
+                    "text":"Likv\u00e4rdig nationell digital r\u00e4ttighet respektive resursf\u00f6rdelning som m\u00f6jligg\u00f6r tillg\u00e4nglighet f\u00f6r alla (tillg\u00e5ng till utrustning och digitalteknik)\n#TidMedel #Kommunpolitiken #Regeringen",
+                    "uid":"5de64f29-8c5b-4d49-9dc5-552414e22c7c",
+                    "contents":[
+
+                    ],
+                    "created":1543326200,
+                    "path":"/regionalt-radslag-vastmanland/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/5de64f29-8c5b-4d49-9dc5-552414e22c7c",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "merkurius"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "kommunpolitiken",
+                        "regeringen",
+                        "merkurius-6"
+                    ],
+                    "aid":"merkurius-6"
+                },
+                {
+                    "text":"VIkten av nyckelbegrepp och gemensamt spr\u00e5k.\n#TidKort #L\u00e4ros\u00e4ten #Skolverket",
+                    "uid":"68077b59-b091-4539-886d-ebd35d8f36cd",
+                    "contents":[
+
+                    ],
+                    "created":1543326326,
+                    "path":"/regionalt-radslag-vastmanland/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/68077b59-b091-4539-886d-ebd35d8f36cd",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "merkurius"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "l\u00e4ros\u00e4ten",
+                        "skolverket",
+                        "merkurius-7"
+                    ],
+                    "aid":"merkurius-7"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r  Tilldela resurser, Kvalitetsuppf\u00f6ljning och\r\nKompetensutveckling\n#TidKort #Skolverket",
+                    "uid":"9d79d098-5540-45a0-a478-46766d862043",
+                    "contents":[
+
+                    ],
+                    "created":1543326230,
+                    "path":"/regionalt-radslag-vastmanland/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/9d79d098-5540-45a0-a478-46766d862043",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "skolverket",
+                        "mars-6"
+                    ],
+                    "aid":"mars-6"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r Infrastruktur och ekonomiska f\u00f6ruts\u00e4ttningar - riktade satsningar p\u00e5 nationell niv\u00e5.\n#TidMedel #Departement #Regeringen",
+                    "uid":"bc0afca5-8b33-4af6-aaaf-4085a83709e2",
+                    "contents":[
+
+                    ],
+                    "created":1543325982,
+                    "path":"/regionalt-radslag-vastmanland/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/bc0afca5-8b33-4af6-aaaf-4085a83709e2",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "jupiter"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "departement",
+                        "regeringen",
+                        "jupiter-4"
+                    ],
+                    "aid":"jupiter-4"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r Se \u00f6ver lagstiftning s\u00e5 att den st\u00f6djer digitaliseringen, till exempel via fj\u00e4rrundervisning.\n#TidMedel #Skolverket #Regeringen",
+                    "uid":"d5a14dd1-875a-48bd-a189-d84673811766",
+                    "contents":[
+
+                    ],
+                    "created":1543325505,
+                    "path":"/regionalt-radslag-vastmanland/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/d5a14dd1-875a-48bd-a189-d84673811766",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "jupiter"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "skolverket",
+                        "regeringen",
+                        "jupiter-2"
+                    ],
+                    "aid":"jupiter-2"
+                }
+            ]
+        },
+        {
+            "uid":"93acdd77-c1a4-4b20-833f-865ba2d8c9ed",
+            "created":1538655858,
+            "title":"4) Vilka \u00e4r de fr\u00e4msta hindren f\u00f6r att uppn\u00e5 likv\u00e4rdighet g\u00e4llande anv\u00e4ndning och tillg\u00e5ng vid digitalisering av skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":0,
+                "Proposal":0,
+                "Poll":0
+            },
+            "end_time":null,
+            "path":"/regionalt-radslag-vastmanland/4-vilka-ar-de-framsta-hindren-for-att-uppna-likvardighet-gallande-anvandning-och",
+            "contents":[
+
+            ]
+        },
+        {
+            "uid":"5d85ba32-5273-4fb8-b520-79609269540f",
+            "created":1538655879,
+            "title":"5) Vad \u00e4r viktigast f\u00f6r att forskning om digitalisering ska g\u00f6ras tillg\u00e4nglig f\u00f6r skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":0,
+                "Proposal":2,
+                "Poll":0
+            },
+            "end_time":1543329354,
+            "path":"/regionalt-radslag-vastmanland/5-vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for",
+            "contents":[
+                {
+                    "text":"Forskning ska vara l\u00e4ttillg\u00e4nglig och nationellt likv\u00e4rdig samt relevant och l\u00e4ttapplicerad p\u00e5 verksamheten.\n#TidL\u00e5ng #L\u00e4ros\u00e4ten #Skolverket",
+                    "uid":"29bfa650-8a90-466d-b2fc-f8a69f9752f8",
+                    "contents":[
+
+                    ],
+                    "created":1543325304,
+                    "path":"/regionalt-radslag-vastmanland/5-vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for/29bfa650-8a90-466d-b2fc-f8a69f9752f8",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "merkurius"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "l\u00e4ros\u00e4ten",
+                        "skolverket",
+                        "merkurius-2"
+                    ],
+                    "aid":"merkurius-2"
+                },
+                {
+                    "text":"Kontinuerlig och l\u00e5ngsiktig samverkan mellan forskning och skolverksamheten i ett geivande och tagande.\n#TidL\u00e5ng #L\u00e4ros\u00e4ten #Skolverket",
+                    "uid":"47b72659-b69e-446e-8841-ae73f8601d18",
+                    "contents":[
+
+                    ],
+                    "created":1543325115,
+                    "path":"/regionalt-radslag-vastmanland/5-vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for/47b72659-b69e-446e-8841-ae73f8601d18",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "merkurius"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "l\u00e4ros\u00e4ten",
+                        "skolverket",
+                        "merkurius-1"
+                    ],
+                    "aid":"merkurius-1"
+                }
+            ]
+        },
+        {
+            "uid":"9d631cd0-ed35-4d2b-ae36-1c01a5d2263e",
+            "created":1538655897,
+            "title":"6) Hur kan forskningen b\u00e4st st\u00f6dja digitaliseringen av skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":0,
+                "Proposal":0,
+                "Poll":0
+            },
+            "end_time":1543329354,
+            "path":"/regionalt-radslag-vastmanland/6-hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet",
+            "contents":[
+
+            ]
+        }
+    ]
+}

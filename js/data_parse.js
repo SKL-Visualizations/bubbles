@@ -41,6 +41,20 @@ function parse_file(){
   q.defer(d3.json, 'data/real/radslag2-kompetens.json');
   // q.defer(d3.json, 'data/real/');
 
+  q.defer(d3.json, 'data/real/fortsattning.json');
+  q.defer(d3.json, 'data/real/radslag-2-fokusomrade-forskning-och-uppfoljning.json');
+  q.defer(d3.json, 'data/real/radslag-friskolorna.json');
+  q.defer(d3.json, 'data/real/radslag-likvardigt-larande.json');
+  q.defer(d3.json, 'data/real/radslag-om-skolans-digitalisering-under-almedalsveckan-2018.json');
+  q.defer(d3.json, 'data/real/regionalt-radslag-forskola.json');
+  q.defer(d3.json, 'data/real/regionalt-radslag-mall-1.json');
+  q.defer(d3.json, 'data/real/regionalt-radslag-mall-2.json');
+  q.defer(d3.json, 'data/real/regionalt-radslag-stockholm.json');
+  q.defer(d3.json, 'data/real/regionalt-radslag-uppsala.json');
+  q.defer(d3.json, 'data/real/regionalt-radslag-varmland.json');
+  q.defer(d3.json, 'data/real/regionalt-radslag-vastmanland.json');
+
+  q.defer(d3.json, 'data/real/skl-medarbetarkonferens.json');
 
   q.defer(d3.json, 'data/real/q_o.json');
   q.defer(d3.json, 'data/real/meeting_info.json');

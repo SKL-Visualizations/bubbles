@@ -1,0 +1,1173 @@
+{
+    "invite_tickets":{
+        "open":17,
+        "closed":15
+    },
+    "uid":"446e56e7-65a9-4969-a1cf-42fec031c6df",
+    "created":1543348068,
+    "title":"R\u00e5dslag | Friskolorna",
+    "start_time":1543348116,
+    "type_name":"Meeting",
+    "manifest":{
+        "DiscussionPost":4,
+        "Proposal":44,
+        "Poll":5,
+        "InviteTicket":32,
+        "AgendaItem":6
+    },
+    "participants":[
+        "test1",
+        "carlheath",
+        "lars-lingman",
+        "anette",
+        "martin-h-skl",
+        "sandra-franzen",
+        "filippa-von-essen",
+        "christian-magnusson-skolverket",
+        "titan",
+        "ganymede",
+        "sylvain",
+        "marie1964",
+        "callisto",
+        "andreas-hedlund",
+        "hakan-lofberg",
+        "anders",
+        "aaron-diseborn",
+        "johanna-karlen",
+        "patrik-andersson",
+        "hanna-forsberg",
+        "emma-rosen",
+        "elena-alge",
+        "joelfilipp",
+        "magnus",
+        "pernilla-nilsson",
+        "rebecca",
+        "andreas-levin",
+        "morten-in",
+        "camilla-samuelsson",
+        "lacouture",
+        "katarina-hedberg",
+        "bannywan",
+        "nilserikwallman",
+        "serdar-camuz",
+        "magnus-carlsson",
+        "tenneh",
+        "carina-hagstrom-bergh",
+        "uffe",
+        "ioo",
+        "anna-carlsson",
+        "linda",
+        "magnusjohansson",
+        "fredrikpahlsson",
+        "annika-agelii-genlott",
+        "jennyblomquist",
+        "carina-naslundh",
+        "jan-hylen",
+        "eszter-horvath-tothne",
+        "so92",
+        "admin",
+        "pgrektor2018",
+        "sofia-kinberg",
+        "hussein-ibrahim",
+        "johan-schiff",
+        "karl-johan-carlsson",
+        "scott-melnyk",
+        "mysan2",
+        "liselott-jonsson",
+        "johan-segerfeldt",
+        "futuraskolan",
+        "permelin",
+        "robin",
+        "hanna-lysen"
+    ],
+    "end_time":null,
+    "path":"/radslag-friskolorna",
+    "contents":[
+        {
+            "uid":"640f97bb-f74d-4096-9e45-821f091ebd69",
+            "created":1538655786,
+            "title":"1) Hur kan samh\u00e4llet bidra till en bra och likv\u00e4rdig utveckling av digital kompetens f\u00f6r alla inom skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":0,
+                "Proposal":12,
+                "Poll":1
+            },
+            "end_time":null,
+            "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for",
+            "contents":[
+                {
+                    "text":"En riksomsp\u00e4nnande nanolerarning med tillh\u00f6rande certifiering av landets alla l\u00e4rare.\n#TidKort #SKL #Skolverket",
+                    "uid":"021dd905-94b7-4636-8636-5f9d5cbfd899",
+                    "contents":[
+
+                    ],
+                    "created":1543589229,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/021dd905-94b7-4636-8636-5f9d5cbfd899",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "skl",
+                        "skolverket",
+                        "nilserikwallman-1"
+                    ],
+                    "aid":"nilserikwallman-1"
+                },
+                {
+                    "text":"Digitaliseringspeng som kommer fr\u00e5n staten\n#TidL\u00e5ng #Huvudman #Regeringen",
+                    "uid":"038fe0c5-5cee-4707-a80f-7f04504f945a",
+                    "contents":[
+
+                    ],
+                    "created":1543413607,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/038fe0c5-5cee-4707-a80f-7f04504f945a",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "ioo"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "huvudman",
+                        "regeringen",
+                        "ioo-3"
+                    ],
+                    "aid":"ioo-3"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r F\u00f6r en lyckad digitalisering kr\u00e4vs det likv\u00e4rdiga ekonomiska f\u00f6ruts\u00e4ttningar. En nationell strategi b\u00f6r \u00e4ven ha tillg\u00e5ng till nationella medel som kan st\u00f6tta huvudm\u00e4n. #Skolverket\n#TidKort",
+                    "uid":"0c3d0bba-e394-4e78-9a56-42d5001feb7a",
+                    "contents":[
+
+                    ],
+                    "created":1543412796,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/0c3d0bba-e394-4e78-9a56-42d5001feb7a",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "titan"
+                    ],
+                    "tags":[
+                        "skolverket",
+                        "tidkort",
+                        "titan-1"
+                    ],
+                    "aid":"titan-1"
+                },
+                {
+                    "text":"Se till att anslag och medel blir j\u00e4mlika \u00f6ver hela skolv\u00e4sendet. Utbildning av personalen - det \u00e4r en j\u00e4ttevariation nu kring vad undervisande l\u00e4rare har f\u00f6r kompetens och vilja. L\u00f6sa upp oviljan genom kunskap.\n#TidMedel #Huvudman #L\u00e4rarutbildningarna",
+                    "uid":"0d4f5153-c6a5-4421-87dc-746189cee5fb",
+                    "contents":[
+
+                    ],
+                    "created":1543591628,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/0d4f5153-c6a5-4421-87dc-746189cee5fb",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "huvudman",
+                        "l\u00e4rarutbildningarna",
+                        "nilserikwallman-11"
+                    ],
+                    "aid":"nilserikwallman-11"
+                },
+                {
+                    "text":"Liksom tidigare n\u00e4mnts \u00e4r gruppen frist\u00e5ende skolors huvudm\u00e4n mer \u00e4n dubbelt s\u00e5 stor som gruppen kommunala skolhuvum\u00e4n. Organisatoriskt handlar det om allt fr\u00e5n mycket sm\u00e5 huvudm\u00e4n, med en skolenhet, till stora akt\u00f6rer med m\u00e5nga skolor p\u00e5 olika h\u00e5ll.\n\nF\u00f6r att bidra till en likv\u00e4rdig utveckling beh\u00f6ver detta beaktas. Kravbilden som formas f\u00f6r digitalisering m\u00e5ste d\u00e4rav utg\u00e5 fr\u00e5n att tyngdpunkten f\u00f6r likv\u00e4rdighetsfr\u00e4mjande insatser m\u00e5ste \u00e5ligga Skolverket.  \n\nSkolverket har exempelvis vid insatser kring h\u00e4lsofr\u00e4mjande skola, olika former av \"lyft\" varit huvudakt\u00f6r och samordnare. Samtliga skolhuvudm\u00e4n (s\u00e5v\u00e4l frist\u00e5ende som kommunala) har sedan kunnat agera inom ramen f\u00f6r detta.",
+                    "uid":"13f46312-75cd-41b7-b70a-030c8f4ee2b0",
+                    "contents":[
+
+                    ],
+                    "created":1543841502,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/13f46312-75cd-41b7-b70a-030c8f4ee2b0",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "fredrikpahlsson"
+                    ],
+                    "tags":[
+                        "fredrikpahlsson-1"
+                    ],
+                    "aid":"fredrikpahlsson-1"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r Vi ser g\u00e4rna en tydligare definition av begreoppet \u201cdigitlisering\u201d, f\u00f6r vem och i vilka sammanhang?",
+                    "uid":"3ccb6d55-6dba-4562-a1a5-073acaae377d",
+                    "contents":[
+
+                    ],
+                    "created":1543412878,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/3ccb6d55-6dba-4562-a1a5-073acaae377d",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "titan"
+                    ],
+                    "tags":[
+                        "titan-2"
+                    ],
+                    "aid":"titan-2"
+                },
+                {
+                    "text":"Kartl\u00e4ggning av kompetens och resurser\n#TidKort #Departement #Huvudman",
+                    "uid":"5e737ffd-6584-43cc-b298-d542cb5d13f4",
+                    "contents":[
+
+                    ],
+                    "created":1543412871,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/5e737ffd-6584-43cc-b298-d542cb5d13f4",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "ioo"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "departement",
+                        "huvudman",
+                        "ioo-1"
+                    ],
+                    "aid":"ioo-1"
+                },
+                {
+                    "text":"Genom att tillhandah\u00e5lla h\u00e5rdvara d\u00e4r det inte finns. De som inte har vettig internet hemma, t.ex. SIM-kort i skoldatorer? Skolmobil? Lite som SIMskolan [pun intended : ] f\u00f6r de som inte kunde simma, ge st\u00f6dinsatser i form av h\u00e5rdvara och abonnemang. St\u00f6dunvervisning i fysisk form.\n#TidMedel #Huvudman",
+                    "uid":"61e3d949-69d8-4616-a3bc-8ea4402adeab",
+                    "contents":[
+
+                    ],
+                    "created":1543591503,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/61e3d949-69d8-4616-a3bc-8ea4402adeab",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "huvudman",
+                        "nilserikwallman-10"
+                    ],
+                    "aid":"nilserikwallman-10"
+                },
+                {
+                    "text":"Utbildning av l\u00e4rarstudenter.",
+                    "uid":"8f2aaadb-b64f-49ab-8da0-fd493f94e4fe",
+                    "contents":[
+
+                    ],
+                    "created":1543483063,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/8f2aaadb-b64f-49ab-8da0-fd493f94e4fe",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "emma-rosen"
+                    ],
+                    "tags":[
+                        "emma-rosen-1"
+                    ],
+                    "aid":"emma-rosen-1"
+                },
+                {
+                    "text":"Digitala initiativ f\u00f6r gemensamma satsningar/samla digital kompetens",
+                    "uid":"df745e45-a45f-4c93-b4a9-75d261037c46",
+                    "contents":[
+
+                    ],
+                    "created":1544097758,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/df745e45-a45f-4c93-b4a9-75d261037c46",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "sofia-kinberg"
+                    ],
+                    "tags":[
+                        "sofia-kinberg-1"
+                    ],
+                    "aid":"sofia-kinberg-1"
+                },
+                {
+                    "text":"Staten beh\u00f6ver budgetera f\u00f6r att lyfta kunskapsniv\u00e5n kring digitaliseringen med fokus p\u00e5 l\u00e4rare\n#TidL\u00e5ng #SKL #Regeringen",
+                    "uid":"e22850aa-0ca9-4092-bd9c-1a585aa1a6ca",
+                    "contents":[
+
+                    ],
+                    "created":1543412295,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/e22850aa-0ca9-4092-bd9c-1a585aa1a6ca",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "ganymede"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "skl",
+                        "regeringen",
+                        "ganymede-1"
+                    ],
+                    "aid":"ganymede-1"
+                },
+                {
+                    "text":"Kompetensutveckling av yrkesverksamma i skolan\n#TidL\u00e5ng #Skolforskningsinstitutet #Huvudman",
+                    "uid":"e8b8b691-74f3-4416-b964-010a7a1fa7d8",
+                    "contents":[
+
+                    ],
+                    "created":1543413255,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/e8b8b691-74f3-4416-b964-010a7a1fa7d8",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "ioo"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "skolforskningsinstitutet",
+                        "huvudman",
+                        "ioo-2"
+                    ],
+                    "aid":"ioo-2"
+                },
+                {
+                    "uid":"eb2f79b2-7051-4366-99f9-3c002e91e981",
+                    "created":1544442884,
+                    "title":"Hur kan samh\u00e4llet b\u00e4st bidra till en bra och likv\u00e4rdig utveckling av digital kompetens f\u00f6r alla inom skolv\u00e4sendet?",
+                    "start_time":1544443217,
+                    "type_name":"Poll",
+                    "manifest":{
+                        "Vote":11
+                    },
+                    "poll_plugin":"sorted_schulze",
+                    "end_time":null,
+                    "path":"/radslag-friskolorna/1-hur-kan-samhallet-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for/hur-kan-samhallet-bast-bidra-till-en-bra-och-likvardig-utveckling-av-digital-for",
+                    "contents":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "uid":"1516c68e-0c0f-4aaa-97af-1fb3d1edbde7",
+            "created":1538655814,
+            "title":"2) Vilka \u00e4r de fr\u00e4msta hindren f\u00f6r en bra och likv\u00e4rdig utveckling av digital kompetens i skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":2,
+                "Proposal":10,
+                "Poll":1
+            },
+            "end_time":null,
+            "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i",
+            "contents":[
+                {
+                    "text":"Ny definition av l\u00e4rarrollen, l\u00e4rares f\u00f6r\u00e4ndrade uppdrag.\n#TidMedel #Regeringen #L\u00e4rarutbildningarna",
+                    "uid":"305a4997-114b-407d-bb96-5aa2eea74a8d",
+                    "contents":[
+
+                    ],
+                    "created":1543414504,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/305a4997-114b-407d-bb96-5aa2eea74a8d",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "callisto"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "regeringen",
+                        "l\u00e4rarutbildningarna",
+                        "callisto-8"
+                    ],
+                    "aid":"callisto-8"
+                },
+                {
+                    "text":"Det fr\u00e4msta hindret handlar om att man som \"norm\" f\u00f6r arbetet s\u00e4tter stora akt\u00f6rer som kommuner eller frist\u00e5ende koncerner.\n\nEn stor ande skolhuvudm\u00e4n har inte de stora organisationernas muskler, varf\u00f6r det \u00e4r av vikt att ha de sm\u00e5 och medelstora skolhuvudm\u00e4nnens  vy f\u00f6r den kravbildning man ger digitaliseringsuppdraget som helhet.",
+                    "uid":"5f1b31c5-978d-4acc-9799-b08af3838f5d",
+                    "contents":[
+
+                    ],
+                    "created":1543841959,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/5f1b31c5-978d-4acc-9799-b08af3838f5d",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "fredrikpahlsson"
+                    ],
+                    "tags":[
+                        "fredrikpahlsson-2"
+                    ],
+                    "aid":"fredrikpahlsson-2"
+                },
+                {
+                    "text":"Bristande kompetens i styrkedjan\n#TidKort #Huvudman #Skolverket",
+                    "uid":"699f986d-f46b-4c67-a798-5789362dbb31",
+                    "contents":[
+
+                    ],
+                    "created":1543414399,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/699f986d-f46b-4c67-a798-5789362dbb31",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "callisto"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "huvudman",
+                        "skolverket",
+                        "callisto-6"
+                    ],
+                    "aid":"callisto-6"
+                },
+                {
+                    "text":"Nej-s\u00e4gare och okritiska positivister.\n#TidMedel #Skolverket #L\u00e4rarutbildningarna",
+                    "uid":"8a5f2b91-e850-45fe-8dee-3447a93faa7a",
+                    "contents":[
+
+                    ],
+                    "created":1543414473,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/8a5f2b91-e850-45fe-8dee-3447a93faa7a",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "callisto"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "skolverket",
+                        "l\u00e4rarutbildningarna",
+                        "callisto-7"
+                    ],
+                    "aid":"callisto-7"
+                },
+                {
+                    "text":"Jag tror att @nilserikwallman \u00e4r p\u00e5 n\u00e5got viktigt h\u00e4r. Standardiseringar beh\u00f6vs.\nF\u00f6r att \u00f6ka likv\u00e4rdighetsm\u00f6jligheterna beh\u00f6ver vi ocks\u00e5 diskutera statens \u00e5tagande gentemot skolv\u00e4sendet. Det \u00e4r orimligt, ur ett likv\u00e4rdighetsperspektiv, att staten utvecklar exempelvis krav p\u00e5 digitala nationella prov utan att detta ocks\u00e5 f\u00f6ljs av ett digitalt ramverk att genomf\u00f6ra dessa digitala nationella prov p\u00e5/i.",
+                    "uid":"a4a90986-4e0f-4307-bdc7-bae094eb6cfd",
+                    "contents":[
+
+                    ],
+                    "created":1543841776,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/a4a90986-4e0f-4307-bdc7-bae094eb6cfd",
+                    "type_name":"DiscussionPost",
+                    "creator":[
+                        "fredrikpahlsson"
+                    ],
+                    "tags":[
+
+                    ]
+                },
+                {
+                    "text":"En \"r\u00f6d tr\u00e5d\" genom djungeln av appar och tekniska l\u00f6sningar. Skolv\u00e4sendet beh\u00f6ver s\u00e4tta tryck p\u00e5 leverant\u00f6rerna f\u00f6r att \"get their shit together\". Detta har man lyckats med inom byggbranchen d\u00e4r branchorganisationer som BEAsT drivit IT-leverant\u00f6rerna till en mer fungerande helhet genom att driva standardiserings- och systemeringsfr\u00e5gor. Kan vi l\u00e5ta SKL, skolverket eller n\u00e5gon annan anv\u00e4ndbarhets- och interoperabilitetstesta programvaror och appar f\u00f6r anv\u00e4ndning i skolan?\n#TidL\u00e5ng #EdTech #Skolverket",
+                    "uid":"a836989b-1d8e-40a3-902d-0ce281577527",
+                    "contents":[
+
+                    ],
+                    "created":1543590006,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/a836989b-1d8e-40a3-902d-0ce281577527",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "edtech",
+                        "skolverket",
+                        "nilserikwallman-2"
+                    ],
+                    "aid":"nilserikwallman-2"
+                },
+                {
+                    "text":"Om man missar l\u00e4rstilarnas och olika elevers behov i f\u00f6rh\u00e5llande till den digitalt baserade undervisningens metoder kommer man att skapa motst\u00e5nd \u00e4ven i elevbasen. Viktigt att vissa kan f\u00e5 sina youtubeklipp f\u00f6r det passar dem medan de som vill f\u00e5 en riktigt f\u00f6rklaring av en l\u00e4rare kan forts\u00e4tta f\u00e5 det. Risken blir att dra alla \u00f6ver en kam i \"det nya\" i \u00f6vertro till tekniken som s\u00e5dan.",
+                    "uid":"c3871afb-2302-43d5-874c-ecc0036fb676",
+                    "contents":[
+
+                    ],
+                    "created":1543591806,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/c3871afb-2302-43d5-874c-ecc0036fb676",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "nilserikwallman-12"
+                    ],
+                    "aid":"nilserikwallman-12"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r Huvudm\u00e4n beh\u00f6ver tydligt ansvara f\u00f6r resursfr\u00e5gan (och inte enskild skola).\n#TidKort #Huvudman #Skolverket",
+                    "uid":"da2215c0-9389-4161-8ec2-75b35c14153e",
+                    "contents":[
+
+                    ],
+                    "created":1543413168,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/da2215c0-9389-4161-8ec2-75b35c14153e",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "titan"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "huvudman",
+                        "skolverket",
+                        "titan-4"
+                    ],
+                    "aid":"titan-4"
+                },
+                {
+                    "text":"L\u00e4rarutbildningen/ny utexaminerade m\u00e5ste ha en bra digital utbildning/kompetens\n#TidKort #Skolverket #L\u00e4rarutbildningarna",
+                    "uid":"e56be3d3-4382-4787-8ef6-1f5b5cb3a7c8",
+                    "contents":[
+
+                    ],
+                    "created":1543414159,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/e56be3d3-4382-4787-8ef6-1f5b5cb3a7c8",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "ioo"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "skolverket",
+                        "l\u00e4rarutbildningarna",
+                        "ioo-4"
+                    ],
+                    "aid":"ioo-4"
+                },
+                {
+                    "text":"L\u00e4rportalen/nationella initiativ. Beh\u00f6ver f\u00f6ljas upp och utvecklas",
+                    "uid":"e80109b8-fb73-49a5-9c6d-f34a5fab1cb6",
+                    "contents":[
+
+                    ],
+                    "created":1544097281,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/e80109b8-fb73-49a5-9c6d-f34a5fab1cb6",
+                    "type_name":"DiscussionPost",
+                    "creator":[
+                        "sofia-kinberg"
+                    ],
+                    "tags":[
+
+                    ]
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r Vad som \u00e4r likv\u00e4rdig tillg\u00e5ng beh\u00f6ver formuleras b\u00e4ttre i styrdokument.\n#TidMedel #Skolverket",
+                    "uid":"eabd0420-dd51-4a4b-b5e1-3ea1b210063a",
+                    "contents":[
+
+                    ],
+                    "created":1543413013,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/eabd0420-dd51-4a4b-b5e1-3ea1b210063a",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "titan"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "skolverket",
+                        "titan-3"
+                    ],
+                    "aid":"titan-3"
+                },
+                {
+                    "text":"Nationell samordningssatsning f\u00f6r att bygga IT/Data infrastruktur (likt 5G-utbyggnad, fiber) b\u00e5de mot kommunala och frist\u00e5ende huvudm\u00e4n\n#TidL\u00e5ng #Skolverket #Regeringen",
+                    "uid":"ed53e11e-ba93-4529-a214-c010ea7e6b6d",
+                    "contents":[
+
+                    ],
+                    "created":1543412857,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/ed53e11e-ba93-4529-a214-c010ea7e6b6d",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "ganymede"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "skolverket",
+                        "regeringen",
+                        "ganymede-2"
+                    ],
+                    "aid":"ganymede-2"
+                },
+                {
+                    "uid":"ef414176-4d2d-4aa7-9e38-cb6aeb29b22f",
+                    "created":1544442929,
+                    "title":"Vilka \u00e4r de fr\u00e4msta hindren f\u00f6r en bra och likv\u00e4rdig utveckling av digital kompetens i skolv\u00e4sendet?",
+                    "start_time":1544443230,
+                    "type_name":"Poll",
+                    "manifest":{
+                        "Vote":11
+                    },
+                    "poll_plugin":"sorted_schulze",
+                    "end_time":null,
+                    "path":"/radslag-friskolorna/2-vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i/vilka-ar-de-framsta-hindren-for-en-bra-och-likvardig-utveckling-av-digital-i",
+                    "contents":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "uid":"f0641147-d909-4360-9986-8c26204e1495",
+            "created":1538655834,
+            "title":"3) Hur kan samh\u00e4llet bidra till att digitaliseringen av skolv\u00e4sendet blir likv\u00e4rdig, g\u00e4llande b\u00e5de tillg\u00e5ng och anv\u00e4ndning?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":0,
+                "Proposal":7,
+                "Poll":1
+            },
+            "end_time":null,
+            "path":"/radslag-friskolorna/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade",
+            "contents":[
+                {
+                    "text":"f\u00f6resl\u00e5r Vad som \u00e4r likv\u00e4rdig tillg\u00e5ng beh\u00f6ver formuleras b\u00e4ttre i styrdokument.\n#TidKort #SPSM #Skolverket",
+                    "uid":"0b8e987c-e72c-4afc-89f9-fe643bcf0e6a",
+                    "contents":[
+
+                    ],
+                    "created":1543413435,
+                    "path":"/radslag-friskolorna/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/0b8e987c-e72c-4afc-89f9-fe643bcf0e6a",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "titan"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "spsm",
+                        "skolverket",
+                        "titan-7"
+                    ],
+                    "aid":"titan-7"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r Huvudm\u00e4n beh\u00f6ver tydligare ansvara f\u00f6r resursfr\u00e5gan (och inte enskild skola).\n#TidMedel #Huvudman",
+                    "uid":"1538503d-6486-4a06-a761-8aedbcfa4332",
+                    "contents":[
+
+                    ],
+                    "created":1543413502,
+                    "path":"/radslag-friskolorna/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/1538503d-6486-4a06-a761-8aedbcfa4332",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "titan"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "huvudman",
+                        "titan-8"
+                    ],
+                    "aid":"titan-8"
+                },
+                {
+                    "text":"Anv\u00e4ndningen av digitala m\u00f6jligheter \u00f6ppnar upp f\u00f6r en \u00e4nnu b\u00e4ttre individanpassning av skolan. Vi kan g\u00f6ra skolan mer likv\u00e4rdig genom att anv\u00e4nda den digitala tekniken f\u00f6r att m\u00f6ta eleverna som de \u00e4r, d\u00e4r de \u00e4r.\n#TidL\u00e5ng #L\u00e4rarutbildningarna #Skolledning",
+                    "uid":"2325baa6-f6e9-44a9-b21e-0cf66876abd9",
+                    "contents":[
+
+                    ],
+                    "created":1543590111,
+                    "path":"/radslag-friskolorna/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/2325baa6-f6e9-44a9-b21e-0cf66876abd9",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "l\u00e4rarutbildningarna",
+                        "skolledning",
+                        "nilserikwallman-3"
+                    ],
+                    "aid":"nilserikwallman-3"
+                },
+                {
+                    "text":"F\u00f6rdelningsnyckel efter behov f\u00f6r resurser (ekonomi, infrastruktur/bredband, kompetensutveckling).\n#Departement #Skolverket #TidKort",
+                    "uid":"2779d0b2-de1d-4ace-bdc9-c9eefcb253f6",
+                    "contents":[
+
+                    ],
+                    "created":1543413869,
+                    "path":"/radslag-friskolorna/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/2779d0b2-de1d-4ace-bdc9-c9eefcb253f6",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "callisto"
+                    ],
+                    "tags":[
+                        "departement",
+                        "skolverket",
+                        "tidkort",
+                        "callisto-3"
+                    ],
+                    "aid":"callisto-3"
+                },
+                {
+                    "text":"Forskningen skall vara n\u00e4rmare knuten till skolan/verksamheten/skolan.\nL\u00e5ta varje skolan vara knuten till ett l\u00e4ros\u00e4te",
+                    "uid":"35819679-508a-4d0a-a535-c4385c1c8fc1",
+                    "contents":[
+
+                    ],
+                    "created":1543414390,
+                    "path":"/radslag-friskolorna/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/35819679-508a-4d0a-a535-c4385c1c8fc1",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "ioo"
+                    ],
+                    "tags":[
+                        "ioo-5"
+                    ],
+                    "aid":"ioo-5"
+                },
+                {
+                    "text":"Styr samtalet till HUR digitaliseringen ska utvecklas, inte OM. St\u00f6d till lokala handlingsplaner f\u00f6r digital utveckling.\r\n#TidKort #Departement #L\u00e4ros\u00e4ten",
+                    "uid":"659fd182-2931-4a7b-a205-75fddf57b579",
+                    "contents":[
+
+                    ],
+                    "created":1543414099,
+                    "path":"/radslag-friskolorna/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/659fd182-2931-4a7b-a205-75fddf57b579",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "callisto"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "departement",
+                        "l\u00e4ros\u00e4ten",
+                        "callisto-4"
+                    ],
+                    "aid":"callisto-4"
+                },
+                {
+                    "text":"Uppmuntra entrepren\u00f6rer inom omr\u00e5det f\u00f6r att \u00f6ka tillg\u00e5ng och pressa priser.\n#TidKort #Vinnova #Regeringen",
+                    "uid":"e04a118e-ad51-419e-80aa-a9b0ce5924b4",
+                    "contents":[
+
+                    ],
+                    "created":1543414232,
+                    "path":"/radslag-friskolorna/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/e04a118e-ad51-419e-80aa-a9b0ce5924b4",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "callisto"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "vinnova",
+                        "regeringen",
+                        "callisto-5"
+                    ],
+                    "aid":"callisto-5"
+                },
+                {
+                    "uid":"b3cab2b8-94d9-4eda-90cb-6376959e2021",
+                    "created":1544442973,
+                    "title":"Hur kan samh\u00e4llet b\u00e4st bidra till att digitaliseringen av skolv\u00e4sendet blir likv\u00e4rdig, g\u00e4llande b\u00e5de tillg\u00e5ng och anv\u00e4ndning?",
+                    "start_time":1544443244,
+                    "type_name":"Poll",
+                    "manifest":{
+                        "Vote":11
+                    },
+                    "poll_plugin":"sorted_schulze",
+                    "end_time":null,
+                    "path":"/radslag-friskolorna/3-hur-kan-samhallet-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade/hur-kan-samhallet-bast-bidra-till-att-digitaliseringen-av-skolvasendet-blir-bade",
+                    "contents":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "uid":"7403992b-da20-4dd9-99dc-96ee0c8e5c96",
+            "created":1538655858,
+            "title":"4) Vilka \u00e4r de fr\u00e4msta hindren f\u00f6r att uppn\u00e5 likv\u00e4rdighet g\u00e4llande anv\u00e4ndning och tillg\u00e5ng vid digitalisering av skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":0,
+                "Proposal":3,
+                "Poll":0
+            },
+            "end_time":null,
+            "path":"/radslag-friskolorna/4-vilka-ar-de-framsta-hindren-for-att-uppna-likvardighet-gallande-anvandning-och",
+            "contents":[
+                {
+                    "text":"Att skolan m\u00e4ts utifr\u00e5n m\u00e4tetal och modeller som baseras p\u00e5 ett utdaterat paradigm. Ta Finland och deras i media rapporterade \"katastrof\" kring digitaliseringen i skola. Kanske det ocks\u00e5 handlar om hur PISA-KPI:erna avspeglar vad man vill ha ut ur skolan?\n#Skolverket #Regeringen",
+                    "uid":"0a9b0540-5993-47be-9f8b-a64b57a66c18",
+                    "contents":[
+
+                    ],
+                    "created":1543862019,
+                    "path":"/radslag-friskolorna/4-vilka-ar-de-framsta-hindren-for-att-uppna-likvardighet-gallande-anvandning-och/0a9b0540-5993-47be-9f8b-a64b57a66c18",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "skolverket",
+                        "regeringen",
+                        "nilserikwallman-14"
+                    ],
+                    "aid":"nilserikwallman-14"
+                },
+                {
+                    "text":"Ett stort hot kan vara att man tror digital kompetens \u00e4r f\u00f6rm\u00e5gan att anv\u00e4nda verktygen n\u00e4r det mera handlar om informationss\u00f6kande, att skaffa ny och byta ut befintlig kunskap och bli en digital medborgare. Fokus p\u00e5 verktyg, appar, teknik och datorer beh\u00f6vs - som infrastruktur.\n#Skolverket #Regeringen",
+                    "uid":"c2337f17-1161-4d5f-bc1e-5a3fa2c9a28c",
+                    "contents":[
+
+                    ],
+                    "created":1543861939,
+                    "path":"/radslag-friskolorna/4-vilka-ar-de-framsta-hindren-for-att-uppna-likvardighet-gallande-anvandning-och/c2337f17-1161-4d5f-bc1e-5a3fa2c9a28c",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "skolverket",
+                        "regeringen",
+                        "nilserikwallman-13"
+                    ],
+                    "aid":"nilserikwallman-13"
+                },
+                {
+                    "text":"Oj\u00e4mn kunskapsbas i hur man anv\u00e4nder verktygen. Vi \u00e4r alla mer eller mindre autodidakta inom digital anv\u00e4ndning (om vi kan); vem best\u00e4mmer vad som \u00e4r \"r\u00e4tt\"? Andra \u00e4mnen i skolan \u00e4r sprungna ur vetenskap, denna ur anv\u00e4ndande.\n#Skolverket #Skolledning",
+                    "uid":"c9fd36d6-ac27-486f-a4bc-999aaaccec90",
+                    "contents":[
+
+                    ],
+                    "created":1543862150,
+                    "path":"/radslag-friskolorna/4-vilka-ar-de-framsta-hindren-for-att-uppna-likvardighet-gallande-anvandning-och/c9fd36d6-ac27-486f-a4bc-999aaaccec90",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "skolverket",
+                        "skolledning",
+                        "nilserikwallman-15"
+                    ],
+                    "aid":"nilserikwallman-15"
+                }
+            ]
+        },
+        {
+            "uid":"bbd6b2f5-cdd1-438c-afa3-8978375fb74b",
+            "created":1538655879,
+            "title":"5) Vad \u00e4r viktigast f\u00f6r att forskning om digitalisering ska g\u00f6ras tillg\u00e4nglig f\u00f6r skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":1,
+                "Proposal":5,
+                "Poll":1
+            },
+            "end_time":null,
+            "path":"/radslag-friskolorna/5-vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for",
+            "contents":[
+                {
+                    "text":"Att vi relaterar v\u00e5r forskning till vad som p\u00e5g\u00e5r i andra l\u00e4nder och genomf\u00f6r j\u00e4mf\u00f6rande studier inom t.ex. skandinavien och europa.\n#TidL\u00e5ng #L\u00e4ros\u00e4ten #Vinnova",
+                    "uid":"3b65da39-6405-4f5a-a6b5-165f2ea57119",
+                    "contents":[
+
+                    ],
+                    "created":1543590704,
+                    "path":"/radslag-friskolorna/5-vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for/3b65da39-6405-4f5a-a6b5-165f2ea57119",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "l\u00e4ros\u00e4ten",
+                        "vinnova",
+                        "nilserikwallman-5"
+                    ],
+                    "aid":"nilserikwallman-5"
+                },
+                {
+                    "text":"Att forskningen \u00e4r tillg\u00e4nglig p\u00e5 alla s\u00e4tt, s\u00e5v\u00e4l rumsligt som spr\u00e5kligt, f\u00f6r alla aktuella m\u00e5lgrupper. Att sammanst\u00e4llningen samordnas och \u00e4r s\u00f6kbar.\n#TidKort #Departement #Skolforskningsinstitutet",
+                    "uid":"80d4ee93-4ce6-44aa-af83-b7aed6362b50",
+                    "contents":[
+
+                    ],
+                    "created":1543412827,
+                    "path":"/radslag-friskolorna/5-vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for/80d4ee93-4ce6-44aa-af83-b7aed6362b50",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "callisto"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "departement",
+                        "skolforskningsinstitutet",
+                        "callisto-1"
+                    ],
+                    "aid":"callisto-1"
+                },
+                {
+                    "text":"Avsett medlem f\u00f6r att forska b\u00e5de inom anv\u00e4ndandet av teknik och hur det p\u00e5verkar v\u00e4rdegrund och beteende.\n#TidL\u00e5ng #Departement #Vetenskapsr\u00e5det",
+                    "uid":"aed51afa-aabd-49f7-af09-7bb5c03a073b",
+                    "contents":[
+
+                    ],
+                    "created":1543413432,
+                    "path":"/radslag-friskolorna/5-vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for/aed51afa-aabd-49f7-af09-7bb5c03a073b",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "callisto"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "departement",
+                        "vetenskapsr\u00e5det",
+                        "callisto-2"
+                    ],
+                    "aid":"callisto-2"
+                },
+                {
+                    "text":"Att skolan och forskningsv\u00e4sendet faktiskt n\u00e4rmar sig varandra. [kanske vidare fr\u00e5n id\u00e9n med lektorstj\u00e4nster]. Naturliga v\u00e4gar beh\u00f6ver etableras vilket \u00f6kar relevansen med effekten att l\u00e4rare faktiskt kan konkret f\u00f6rst\u00e5 och applicera resultaten.\n#TidMedel #L\u00e4ros\u00e4ten",
+                    "uid":"b59f2332-38f9-4ac2-b4f1-6c118fca1ab3",
+                    "contents":[
+
+                    ],
+                    "created":1543590857,
+                    "path":"/radslag-friskolorna/5-vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for/b59f2332-38f9-4ac2-b4f1-6c118fca1ab3",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "l\u00e4ros\u00e4ten",
+                        "nilserikwallman-6"
+                    ],
+                    "aid":"nilserikwallman-6"
+                },
+                {
+                    "text":"Att det m\u00e4ts p\u00e5 m\u00e5l ute i  samh\u00e4llet. Att t.ex. distansundervisning anv\u00e4nds och b\u00e5de nyttan i skolan samt dess klimateffekt tas med i resultaten. P\u00e5 s\u00e5 s\u00e4tt blir resultaten mer relevanta och satta i ett helhetsperspektiv och kan bli intressant f\u00f6r samh\u00e4llet som stort att engagera sig i.\n#TidL\u00e5ng #Universitet_och_h\u00f6gskoler\u00e5det #Vetenskapsr\u00e5det",
+                    "uid":"dff70a3d-0396-417d-8598-7837a4773634",
+                    "contents":[
+
+                    ],
+                    "created":1543590593,
+                    "path":"/radslag-friskolorna/5-vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for/dff70a3d-0396-417d-8598-7837a4773634",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "tidl\u00e5ng",
+                        "universitet_och_h\u00f6gskoler\u00e5det",
+                        "vetenskapsr\u00e5det",
+                        "nilserikwallman-4"
+                    ],
+                    "aid":"nilserikwallman-4"
+                },
+                {
+                    "text":"@nilserikwallman och undertecknad delar inte alla tankar kring forskningens roll. \n\nDock vill jag framh\u00e5lla id\u00e9n om att verka f\u00f6r ett f\u00f6rtydligande och st\u00f6rre m\u00f6jligg\u00f6rande f\u00f6r lektorstj\u00e4nster. Lektoraten kan vara en stor och god tillg\u00e5ng f\u00f6r att g\u00f6ra forskning tillg\u00e4nglig f\u00f6r skolv\u00e4sendet.\n\n#tidmedel #l\u00e4ros\u00e4ten #nilserikwallman-6",
+                    "uid":"ef3831e7-f1ff-457e-85cc-e6dd10c0b4f5",
+                    "contents":[
+
+                    ],
+                    "created":1543842166,
+                    "path":"/radslag-friskolorna/5-vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for/ef3831e7-f1ff-457e-85cc-e6dd10c0b4f5",
+                    "type_name":"DiscussionPost",
+                    "creator":[
+                        "fredrikpahlsson"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "l\u00e4ros\u00e4ten",
+                        "nilserikwallman-6"
+                    ]
+                },
+                {
+                    "uid":"5426ae6e-4ef0-42ee-8eb3-b9ed8046201e",
+                    "created":1544443057,
+                    "title":"Vad \u00e4r viktigast f\u00f6r att forskning om digitalisering ska g\u00f6ras tillg\u00e4nglig f\u00f6r skolv\u00e4sendet?",
+                    "start_time":1544443257,
+                    "type_name":"Poll",
+                    "manifest":{
+                        "Vote":11
+                    },
+                    "poll_plugin":"sorted_schulze",
+                    "end_time":null,
+                    "path":"/radslag-friskolorna/5-vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for/vad-ar-viktigast-for-att-forskning-om-digitalisering-ska-goras-tillganglig-for",
+                    "contents":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "uid":"8c0c9b52-587c-4a21-a713-e96ed3af16c2",
+            "created":1538655897,
+            "title":"6) Hur kan forskningen b\u00e4st st\u00f6dja digitaliseringen av skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":1,
+                "Proposal":7,
+                "Poll":1
+            },
+            "end_time":null,
+            "path":"/radslag-friskolorna/6-hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet",
+            "contents":[
+                {
+                    "text":"f\u00f6resl\u00e5r G\u00f6r aktuell skolforskning mer tillg\u00e4nglig. Huvudm\u00e4n och skolor beh\u00f6ver st\u00f6d i tolkning och till\u00e4mpling av forskningens resultat.\n#TidMedel #Universitet_och_h\u00f6gskoler\u00e5det #Huvudman",
+                    "uid":"10291062-7f9b-4ab9-95df-a5b206404b04",
+                    "contents":[
+
+                    ],
+                    "created":1543413307,
+                    "path":"/radslag-friskolorna/6-hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet/10291062-7f9b-4ab9-95df-a5b206404b04",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "titan"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "universitet_och_h\u00f6gskoler\u00e5det",
+                        "huvudman",
+                        "titan-5"
+                    ],
+                    "aid":"titan-5"
+                },
+                {
+                    "text":"Det finns m\u00e5nga fallgropar f\u00f6r forskningen i m\u00f6tet med den vardagsn\u00e4ra l\u00e4randepraktiken. Ett \u00e4r att externa parter, kanske framf\u00f6rallt p\u00e5 huvudmannaniv\u00e5 eller motsvarande, t\u00e4nker kvantitativt i f\u00f6rsta rummet.\n\nSom n\u00e4mnts ovan \u00e4r tillg\u00e4ngliggjord \"best practice\" viktigt och m\u00e5nga g\u00e5nger n\u00e5got som efters\u00f6ks av l\u00e4rare - n\u00e5got fungerar och i sann open source-anda tillg\u00e4ngligg\u00f6rs det f\u00f6r andra.\n\nForskningen har dock m\u00f6jligheter till betydligt bredare anslag och d\u00e5 kan vi se exempelvis tillg\u00e5ngen till olika skolstandardiseringar som ett m\u00f6jligt forskningsf\u00e4lt (s\u00e5v\u00e4l f\u00f6r administrativa behov som kunskapandevardagens). \n\nFr\u00e5gor m\u00e5ste h\u00e4r ocks\u00e5 resas om vilken digitaliseringstanke man s\u00f6ker m\u00f6ta;\n- \u00c4r det en bred f\u00f6rst\u00e5else av det digitala begreppet per se?\n- \u00c4r det kunskap f\u00f6r hantering av den digitala vardagen?\n- \u00c4r det \"det mogna digitaliseringsbegreppet\", d\u00e5 vi kommit f\u00f6rbi \"verktygen\" och \"m\u00f6jligheterna\" och funnit i vilka l\u00e4gen ett moget bruk av digitala verktyg gynnar skolans k\u00e4rnverksamhet, l\u00e4randet, och n\u00e4r det INTE g\u00f6r det. \u00c4r digitaliseringen i sig m\u00e5let eller (endast) ytterligare medel f\u00f6r att fr\u00e4mja kunskapsutvecklingen.",
+                    "uid":"3eca7131-657f-4a09-a07e-1c52ea972161",
+                    "contents":[
+
+                    ],
+                    "created":1543843002,
+                    "path":"/radslag-friskolorna/6-hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet/3eca7131-657f-4a09-a07e-1c52ea972161",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "fredrikpahlsson"
+                    ],
+                    "tags":[
+                        "fredrikpahlsson-3"
+                    ],
+                    "aid":"fredrikpahlsson-3"
+                },
+                {
+                    "text":"Genom att utforma nya, mer dynamiska m\u00e4tmetoder i till\u00e4gg till befintliga (PISA) vilka idag inte f\u00e5ngar vad som avses med digital kompetens n\u00e4mnv\u00e4rt. S\u00e5 f\u00e5r vi en uppf\u00f6ljning av v\u00e5r \"progress\" som bottnar i vart vi vill ist\u00e4llet f\u00f6r varifr\u00e5n vi startade.\n#TidMedel #Vinnova #Vetenskapsr\u00e5det",
+                    "uid":"50384f84-a83b-46f3-947b-d592a18b1f5b",
+                    "contents":[
+
+                    ],
+                    "created":1543591024,
+                    "path":"/radslag-friskolorna/6-hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet/50384f84-a83b-46f3-947b-d592a18b1f5b",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "tidmedel",
+                        "vinnova",
+                        "vetenskapsr\u00e5det",
+                        "nilserikwallman-7"
+                    ],
+                    "aid":"nilserikwallman-7"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r Systematisera och \u00f6ka kontaktytor mellan akademi och skola, g\u00e4rna regionalt.",
+                    "uid":"5b91a664-23e2-4bdb-a114-56d021b1d5d4",
+                    "contents":[
+
+                    ],
+                    "created":1543413369,
+                    "path":"/radslag-friskolorna/6-hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet/5b91a664-23e2-4bdb-a114-56d021b1d5d4",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "titan"
+                    ],
+                    "tags":[
+                        "titan-6"
+                    ],
+                    "aid":"titan-6"
+                },
+                {
+                    "text":"Genom att utarbeta best practices f\u00f6r m\u00e4tning av \"ing\u00e5ngsv\u00e4rdena\", dvs var elever, l\u00e4rare och ledning befinner sig i sin digitala kompetens.\n#TidKort #DIGG #Skolverket",
+                    "uid":"8132ae03-7c2a-48aa-9b3b-83b10a48f2bd",
+                    "contents":[
+
+                    ],
+                    "created":1543591122,
+                    "path":"/radslag-friskolorna/6-hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet/8132ae03-7c2a-48aa-9b3b-83b10a48f2bd",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "tidkort",
+                        "digg",
+                        "skolverket",
+                        "nilserikwallman-8"
+                    ],
+                    "aid":"nilserikwallman-8"
+                },
+                {
+                    "text":"Genom att mer \u00e4n tidigare bottna i erfarenheter gjorda ute i f\u00e4lt. Anv\u00e4nd den digitala tekniken f\u00f6r att samla in data p\u00e5 bredden som tidigare inte varit m\u00f6jligt. M\u00e4t hela tiden och anv\u00e4nd moderna analysverktyg f\u00f6r att hitta samband ingen anat, precis som det skett i andra omr\u00e5den som digitaliserats. \"AI/Maskinen/Beslutsst\u00f6det\" kan l\u00e4ra oss saker vi annars inte letat efter [men vi m\u00e4nniskor fattar fortfarande besluten].\n#EdTech #Skolverket",
+                    "uid":"c49f179d-469b-45e6-8203-b3adb87b73f0",
+                    "contents":[
+
+                    ],
+                    "created":1543591373,
+                    "path":"/radslag-friskolorna/6-hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet/c49f179d-469b-45e6-8203-b3adb87b73f0",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "nilserikwallman"
+                    ],
+                    "tags":[
+                        "edtech",
+                        "skolverket",
+                        "nilserikwallman-9"
+                    ],
+                    "aid":"nilserikwallman-9"
+                },
+                {
+                    "text":"1. Forskning kring l\u00e4rares komptensutveckling.\n2. Forskning f\u00f6r att se vilka insatser som st\u00e4rker l\u00e4randet\n3. Forskning om neuro/hj\u00e4rn - inl\u00e4rnings processer kopplat till digitaliseringen",
+                    "uid":"f1ea42a8-5308-4615-8eaa-d1e90b6fbb72",
+                    "contents":[
+
+                    ],
+                    "created":1544096945,
+                    "path":"/radslag-friskolorna/6-hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet/f1ea42a8-5308-4615-8eaa-d1e90b6fbb72",
+                    "type_name":"DiscussionPost",
+                    "creator":[
+                        "sofia-kinberg"
+                    ],
+                    "tags":[
+
+                    ]
+                },
+                {
+                    "text":"Friskolornas riksf\u00f6rbund och SKL startar ett doktorandprogram som med r\u00e4tt finansiering f\u00e5r tillg\u00e5ng till skolor och enheter f\u00f6r att vara med och bidra till en n\u00e4ra relation med skola, elever och l\u00e4rare\n#Friskolornas_riksf\u00f6rbund #SKL #TidMedel",
+                    "uid":"fcc51e05-a5a2-489d-8e63-d2234ab4528c",
+                    "contents":[
+
+                    ],
+                    "created":1543413167,
+                    "path":"/radslag-friskolorna/6-hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet/fcc51e05-a5a2-489d-8e63-d2234ab4528c",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "ganymede"
+                    ],
+                    "tags":[
+                        "friskolornas_riksf\u00f6rbund",
+                        "skl",
+                        "tidmedel",
+                        "ganymede-3"
+                    ],
+                    "aid":"ganymede-3"
+                },
+                {
+                    "uid":"fad453a4-0bac-42da-9a50-e7573b7ce054",
+                    "created":1544443092,
+                    "title":"Hur kan forskningen b\u00e4st st\u00f6dja digitaliseringen av skolv\u00e4sendet?",
+                    "start_time":1544443285,
+                    "type_name":"Poll",
+                    "manifest":{
+                        "Vote":12
+                    },
+                    "poll_plugin":"sorted_schulze",
+                    "end_time":null,
+                    "path":"/radslag-friskolorna/6-hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet/hur-kan-forskningen-bast-stodja-digitaliseringen-av-skolvasendet",
+                    "contents":[
+
+                    ]
+                }
+            ]
+        }
+    ]
+}

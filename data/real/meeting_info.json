@@ -68,5 +68,70 @@
         "uid":"a436c2d1-511f-4022-95c4-4e13f7ac6d90",
         "title":"Rådslag 2 | Fokusområde Digital kompetens för alla i skolväsendet",
         "radslag_type":1
+    },
+    {
+        "uid":"14591251-73fb-41ac-9dd4-5ec49478e991",
+        "title":"Det \u00f6ppna r\u00e5dslaget f\u00f6r handlingsplanens fortsatta arbete",
+        "radslag_type":1
+    },
+    {
+        "uid":"82e3a4fd-0e2c-46d7-ac66-869fae18c851",
+        "title":"R\u00e5dslag 2 | Fokusomr\u00e5de forskning och uppf\u00f6ljning",
+        "radslag_type":1
+    },
+    {
+        "uid":"446e56e7-65a9-4969-a1cf-42fec031c6df",
+        "title":"R\u00e5dslag | Friskolorna",
+        "radslag_type":1
+    },
+    {
+        "uid":"d7f86d41-d3bf-46c0-9280-4a20c201bc19",
+        "title":"R\u00e5dslag | Likv\u00e4rdigt l\u00e4rande",
+        "radslag_type":1
+    },
+    {
+      "uid" : "1f73a695-f2d5-461a-8508-208172f4e836",
+      "title":"R\u00e5dslag om Skolans Digitalisering under Almedalsveckan 2018",
+      "radslag_type":0
+    },
+    {
+      "uid" : "3377a336-6512-457c-93d8-e4408603dbba",
+      "title":"Regionalt R\u00e5dslag | F\u00f6rskola",
+      "radslag_type":0
+    },
+    {
+      "uid" : "748690b0-35b5-4172-b547-e6c958abdb33",
+      "title":"Regionalt R\u00e5dslag | Kronoberg",
+      "radslag_type":0
+    },
+    {
+      "uid" : "8d81e75a-7544-4753-aa37-66e0081e21c7",
+      "title":"Regionalt R\u00e5dslag | S\u00f6rmland",
+      "radslag_type":0
+    },
+    {
+      "uid" : "54d3a526-7e84-4213-affc-b9b6f645b1a2",
+      "title":"Regionalt R\u00e5dslag | Stockholm",
+      "radslag_type":0
+    },
+    {
+      "uid" : "c0368550-4a97-42a8-9c78-416b8190ed32",
+      "title":"Regionalt R\u00e5dslag | Uppsala",
+      "radslag_type":0
+    },
+    {
+      "uid" : "bd04dfb7-e268-4a02-b337-2364cab9ead8",
+      "title":"Regionalt R\u00e5dslag | V\u00e4rmland",
+      "radslag_type":0
+    },
+    {
+      "uid" : "2698e8d0-e503-4b7b-8e59-dcd758f04fa4",
+      "title":"Regionalt R\u00e5dslag | V\u00e4stmanland",
+      "radslag_type":0
+    },
+    {
+      "uid" :"12877a6e-6aab-45a3-8935-facea5e07ad8",
+      "title":"R\u00e5dslag | SKL Medarbetarkonferens",
+      "radslag_type":0
     }
 ]

@@ -1,0 +1,557 @@
+{
+    "invite_tickets":{
+        "open":108,
+        "closed":1
+    },
+    "uid":"12877a6e-6aab-45a3-8935-facea5e07ad8",
+    "created":1538655261,
+    "title":"R\u00e5dslag | SKL Medarbetarkonferens",
+    "start_time":1538655918,
+    "type_name":"Meeting",
+    "manifest":{
+        "DiscussionPost":6,
+        "Proposal":21,
+        "Poll":0,
+        "InviteTicket":109,
+        "AgendaItem":3
+    },
+    "participants":[
+        "test1",
+        "carlheath",
+        "lars-lingman",
+        "martin-h-skl",
+        "christian-magnusson-skolverket",
+        "titan",
+        "ganymede",
+        "callisto",
+        "jupiter",
+        "uranus",
+        "anders",
+        "johanna-karlen",
+        "saturnus",
+        "hanna-forsberg",
+        "magnus",
+        "pernilla-nilsson",
+        "merkurius",
+        "lacouture",
+        "mars",
+        "tenneh",
+        "neptunus",
+        "ioo",
+        "anna-carlsson",
+        "jorden",
+        "annika-agelii-genlott",
+        "edahlen",
+        "jan-hylen",
+        "admin",
+        "johan-schiff",
+        "birgitta-larsson",
+        "venus",
+        "robin"
+    ],
+    "end_time":1544431998,
+    "path":"/skl-medarbetarkonferens",
+    "contents":[
+        {
+            "uid":"91a71dc8-b97f-4e3c-91f0-ec36a5b69f44",
+            "created":1543394489,
+            "title":"Hur kan SKL bidra till \u00f6kad digital kompetens f\u00f6r skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":1,
+                "Proposal":11,
+                "Poll":0
+            },
+            "end_time":1544431995,
+            "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet",
+            "contents":[
+                {
+                    "text":"Det finns en inbyggd risk f\u00f6r det vi vill uppn\u00e5 genom att prata om det som digitalisering av skolan. Snarare handlar det om att utveckla verksamheten i skolan, d\u00e4r digitaliering \u00e4r ett av flera medel och m\u00f6jligheter/utmaningar. S\u00e5 n\u00e4r man kommit lite l\u00e4ngre i arbetet kanske det \u00e4r l\u00e4ge att omv\u00e4rdera hur vi pratar om det.",
+                    "uid":"1810abfb-4495-4ab1-b161-9e05401c4759",
+                    "contents":[
+
+                    ],
+                    "created":1543413048,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/1810abfb-4495-4ab1-b161-9e05401c4759",
+                    "type_name":"DiscussionPost",
+                    "creator":[
+                        "saturnus"
+                    ],
+                    "tags":[
+
+                    ]
+                },
+                {
+                    "text":"1. Omv\u00e4rldsbevakning f\u00f6r att se vad som finns p\u00e5 digitaliseringens omr\u00e5de, och f\u00f6rmedla det till huvudm\u00e4nnen.\n\n2. Ta reda p\u00e5 vad problemet \u00e4r,  problemst\u00e4llningen.\nVilka behov \u00e4r fr\u00e5ga om egentligen? Hur kan digitaliseringen m\u00f6ta de behoven? Behoven av att utveckla b\u00e5de l\u00e4randet hos eleverna, men ocks\u00e5 verksamheterns l\u00e4rande, l\u00e4rarna.",
+                    "uid":"2845cb9b-33ec-4701-a4cc-73c35b0f67de",
+                    "contents":[
+
+                    ],
+                    "created":1543417276,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/2845cb9b-33ec-4701-a4cc-73c35b0f67de",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "uranus"
+                    ],
+                    "tags":[
+                        "uranus-9"
+                    ],
+                    "aid":"uranus-9"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r att skapa och dela det viktigaste utbildningsmaterialet. Att utbilda och erbjuda utbildning. att hj\u00e4lpa till med utbildning av juridiska f\u00f6ruts\u00e4ttningar och krav f\u00f6r utbildningssektorn",
+                    "uid":"40be1663-2a8f-4428-98c0-e35728374685",
+                    "contents":[
+
+                    ],
+                    "created":1543412935,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/40be1663-2a8f-4428-98c0-e35728374685",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "mars-4"
+                    ],
+                    "aid":"mars-4"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r att facilitera erfarenhetsutbyte f\u00f6r att dela best praktices",
+                    "uid":"603fa5a0-fe1f-4b67-8e5f-c1df3c4aa800",
+                    "contents":[
+
+                    ],
+                    "created":1543413070,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/603fa5a0-fe1f-4b67-8e5f-c1df3c4aa800",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "mars-6"
+                    ],
+                    "aid":"mars-6"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r att SKL bidrar till \u00f6kad digital kompetens f\u00f6r skolv\u00e4sendet genom att st\u00f6tta v\u00e5ra medlemmar med framtidsspaning och omv\u00e4rldsbevakning kopplat till analys och verksamhetsutveckling.",
+                    "uid":"71e09753-a73f-43ea-bd1d-9f633fef47b3",
+                    "contents":[
+
+                    ],
+                    "created":1543417618,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/71e09753-a73f-43ea-bd1d-9f633fef47b3",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "saturnus"
+                    ],
+                    "tags":[
+                        "saturnus-8"
+                    ],
+                    "aid":"saturnus-8"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r att SKL bidrar till \u00f6kad digital kompetens f\u00f6r skolv\u00e4sendet genom att samla in och sprida l\u00e4rande exempel som baseras p\u00e5 forskning och/eller bepr\u00f6vad erfarenhet och som tillkommit f\u00f6r att m\u00f6ta specifika behov.",
+                    "uid":"85c33f21-702d-4e1d-b327-00c68a0a7981",
+                    "contents":[
+
+                    ],
+                    "created":1543417258,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/85c33f21-702d-4e1d-b327-00c68a0a7981",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "saturnus"
+                    ],
+                    "tags":[
+                        "saturnus-7"
+                    ],
+                    "aid":"saturnus-7"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r att st\u00f6tta med verktyg f\u00f6r sj\u00e4lvskattning f\u00f6r olika yrkesgrupper. F\u00f6lj upp med \u00d6ppna J\u00e4mf\u00f6relser",
+                    "uid":"8b46f4de-4a79-4985-919b-c453ec9c01a0",
+                    "contents":[
+
+                    ],
+                    "created":1543413124,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/8b46f4de-4a79-4985-919b-c453ec9c01a0",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "mars-7"
+                    ],
+                    "aid":"mars-7"
+                },
+                {
+                    "text":"F\u00f6rslag 1\r\nUpphandla tillsammans \r\n- verktyg\r\n- plattformar\r\nSKL erbjuder st\u00f6d och hj\u00e4lp i upphandlingar och samverkan\r\n\r\n\r\nF\u00f6rslag 2\r\nForma och driva best\u00e4llar n\u00e4tverk\r\nSt\u00f6dja behovs inventering, kravst\u00e4llning, upphandling, erfarenhetsutbyte",
+                    "uid":"ac61d357-6527-4bda-8114-ef66f19d55e9",
+                    "contents":[
+
+                    ],
+                    "created":1543413318,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/ac61d357-6527-4bda-8114-ef66f19d55e9",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "jupiter"
+                    ],
+                    "tags":[
+                        "jupiter-2"
+                    ],
+                    "aid":"jupiter-2"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r en strategi f\u00f6r st\u00f6d och kunskapsh\u00f6jning.",
+                    "uid":"c0880c07-7a1b-4098-a371-aa8f3cb45f42",
+                    "contents":[
+
+                    ],
+                    "created":1543411842,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/c0880c07-7a1b-4098-a371-aa8f3cb45f42",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "saturnus"
+                    ],
+                    "tags":[
+                        "saturnus-5"
+                    ],
+                    "aid":"saturnus-5"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r en koordinerande roll vad g\u00e4ller st\u00f6d: it-system, juridik, upphandling, vilken kompetensutveckling som beh\u00f6vs osv.",
+                    "uid":"caec7db3-dbfa-4cf9-a69e-f338c100d972",
+                    "contents":[
+
+                    ],
+                    "created":1543412084,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/caec7db3-dbfa-4cf9-a69e-f338c100d972",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "saturnus"
+                    ],
+                    "tags":[
+                        "saturnus-6"
+                    ],
+                    "aid":"saturnus-6"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r att bidra i utvecklandet av plattform - som skolor sj\u00e4lva kan bygga vidare p\u00e5.\r\n\r\nViktigt att peka p\u00e5 eller ta fram standard",
+                    "uid":"d785a0ca-520d-49fd-b04f-4726371d7302",
+                    "contents":[
+
+                    ],
+                    "created":1543413223,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/d785a0ca-520d-49fd-b04f-4726371d7302",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "mars-8"
+                    ],
+                    "aid":"mars-8"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r att ha internationell utblick och plocka hem bra material fr lokal anpassning",
+                    "uid":"eae9d4c8-f60f-4218-a25a-dad14c05f75e",
+                    "contents":[
+
+                    ],
+                    "created":1543413004,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-okad-digital-kompetens-for-skolvasendet/eae9d4c8-f60f-4218-a25a-dad14c05f75e",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "mars-5"
+                    ],
+                    "aid":"mars-5"
+                }
+            ]
+        },
+        {
+            "uid":"915d6ad9-0aa5-45da-b71b-2910ca6da9a8",
+            "created":1543394904,
+            "title":"Hur kan SKL bidra till att minska den digitala klyftan?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":3,
+                "Proposal":6,
+                "Poll":0
+            },
+            "end_time":1544431995,
+            "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-minska-den-digitala-klyftan",
+            "contents":[
+                {
+                    "text":"f\u00f6resl\u00e5r att SKL ska fr\u00e4mja kunskapslyft f\u00f6r l\u00e4rare g\u00e4llande arbete i digitala milj\u00f6er",
+                    "uid":"15654730-199a-4f56-bcaa-1ed213eba6da",
+                    "contents":[
+
+                    ],
+                    "created":1543413329,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-minska-den-digitala-klyftan/15654730-199a-4f56-bcaa-1ed213eba6da",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "merkurius"
+                    ],
+                    "tags":[
+                        "merkurius-3"
+                    ],
+                    "aid":"merkurius-3"
+                },
+                {
+                    "text":"Gemensamma upphandlingar av digitala verktyg genom Kommentus",
+                    "uid":"4558534f-ca5a-4772-8689-043a18557925",
+                    "contents":[
+
+                    ],
+                    "created":1543416717,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-minska-den-digitala-klyftan/4558534f-ca5a-4772-8689-043a18557925",
+                    "type_name":"DiscussionPost",
+                    "creator":[
+                        "jupiter"
+                    ],
+                    "tags":[
+
+                    ]
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r att SKL koncernen g\u00f6r gemensam behovsanalys, upphandlar och tillhandah\u00e5ller digital infrastruktur, plattformar och system f\u00f6r j\u00e4mlik tillg\u00e5ng. iterativt arbetss\u00e4tt, testa steg f\u00f6r steg, rulla ut stegvis till alla sveriges kommuner och \u00f6vriga akt\u00f6rer",
+                    "uid":"5c2b2b69-838b-4b73-a836-3319b47b3ce6",
+                    "contents":[
+
+                    ],
+                    "created":1543413078,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-minska-den-digitala-klyftan/5c2b2b69-838b-4b73-a836-3319b47b3ce6",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "jorden"
+                    ],
+                    "tags":[
+                        "jorden-6"
+                    ],
+                    "aid":"jorden-6"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r digital identitet finns till alla",
+                    "uid":"73781a7a-13b8-45b7-947f-919223fe63af",
+                    "contents":[
+
+                    ],
+                    "created":1543413362,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-minska-den-digitala-klyftan/73781a7a-13b8-45b7-947f-919223fe63af",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "mars-9"
+                    ],
+                    "aid":"mars-9"
+                },
+                {
+                    "text":"Beskriva kunskapsl\u00e4get n\u00e4r det g\u00e4ller \"den digitala klyftan\". Mellan kommuner, mellan skolor, mellan l\u00e4rare, och \u00e4ven skolelever. \n\n\u00d6ka kompetensen om fr\u00e5gan hos beslutsfattare.",
+                    "uid":"951268c8-265d-4131-a4ea-78fd04005fda",
+                    "contents":[
+
+                    ],
+                    "created":1543417849,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-minska-den-digitala-klyftan/951268c8-265d-4131-a4ea-78fd04005fda",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "uranus"
+                    ],
+                    "tags":[
+                        "uranus-10"
+                    ],
+                    "aid":"uranus-10"
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r att SKL ska lobba och p\u00e5verka skolor och l\u00e4ros\u00e4ten f\u00f6r att arbeta med den digitala kompetensen f\u00f6r att h\u00f6ja hela befolkningens digitala vana och kompetens",
+                    "uid":"d3c85dfd-fc20-4026-8828-6c366a22e88c",
+                    "contents":[
+
+                    ],
+                    "created":1543413503,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-minska-den-digitala-klyftan/d3c85dfd-fc20-4026-8828-6c366a22e88c",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "jorden"
+                    ],
+                    "tags":[
+                        "jorden-7"
+                    ],
+                    "aid":"jorden-7"
+                },
+                {
+                    "text":"Lyfta fram och synligg\u00f6ra kommuner som har lyckats med digital kompetens hos l\u00e4rare i f\u00f6rskola och skola. Hur arbetar man? Hur har l\u00e4rarna utvecklat den digitala kompetensen. Kommentus skulle kunna skapa ramavtal f\u00f6r upphandling av digitala verktyg och program.",
+                    "uid":"e5af129d-edf3-49ef-9881-f87e50df0e70",
+                    "contents":[
+
+                    ],
+                    "created":1543417800,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-minska-den-digitala-klyftan/e5af129d-edf3-49ef-9881-f87e50df0e70",
+                    "type_name":"DiscussionPost",
+                    "creator":[
+                        "merkurius"
+                    ],
+                    "tags":[
+
+                    ]
+                },
+                {
+                    "text":"P\u00e5verka l\u00e4rarutbildningen s\u00e5 att l\u00e4rarna l\u00e4r sig f\u00f6rst\u00e5 och nyttja digitala verktyg + fortbildningskit f\u00f6r l\u00e4rare i motsvarande \u00e4mne",
+                    "uid":"e649179e-ddac-463d-8ab8-348a2b70fc74",
+                    "contents":[
+
+                    ],
+                    "created":1543416821,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-minska-den-digitala-klyftan/e649179e-ddac-463d-8ab8-348a2b70fc74",
+                    "type_name":"DiscussionPost",
+                    "creator":[
+                        "jupiter"
+                    ],
+                    "tags":[
+
+                    ]
+                },
+                {
+                    "text":"f\u00f6resl\u00e5r e-leg finns till alla",
+                    "uid":"e74c89f7-ad43-4f92-a299-5738e4d0a58e",
+                    "contents":[
+
+                    ],
+                    "created":1543413383,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-minska-den-digitala-klyftan/e74c89f7-ad43-4f92-a299-5738e4d0a58e",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "mars"
+                    ],
+                    "tags":[
+                        "mars-10"
+                    ],
+                    "aid":"mars-10"
+                }
+            ]
+        },
+        {
+            "uid":"393178a3-f4cd-4e5c-a705-fd0655c2d8b9",
+            "created":1543394968,
+            "title":"Hur kan SKL bidra till att tillg\u00e4ngligg\u00f6ra aktuell forskning, g\u00e4llande digitalisering, f\u00f6r skolv\u00e4sendet?",
+            "start_time":null,
+            "type_name":"AgendaItem",
+            "manifest":{
+                "DiscussionPost":2,
+                "Proposal":4,
+                "Poll":0
+            },
+            "end_time":1544431995,
+            "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-tillgangliggora-aktuell-forskning-gallande-for",
+            "contents":[
+                {
+                    "text":"Att enbart tillg\u00e4ngligg\u00f6ra forskning KAN bidra till att medlemmar tolkar och till\u00e4mpar denna forskning p\u00e5 olika s\u00e4tt, d.v.s. den digitala transformationen blir inte enhetlig. SKL kanske d\u00e4rmed beh\u00f6ver l\u00e4gga mer tonvikt vid att ta fram smarta exempel f\u00f6r behovs- och m\u00e5lgruppsanpassad till\u00e4mpning (t.ex. \"digitaliseringspaket\" anpassade efter behov, m\u00e5l, etc).",
+                    "uid":"2b84bdff-352c-49b6-abf8-232f3e0eec27",
+                    "contents":[
+
+                    ],
+                    "created":1543413634,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-tillgangliggora-aktuell-forskning-gallande-for/2b84bdff-352c-49b6-abf8-232f3e0eec27",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "uranus"
+                    ],
+                    "tags":[
+                        "uranus-8"
+                    ],
+                    "aid":"uranus-8"
+                },
+                {
+                    "text":"Genom att forskningen ocks\u00e5 blir m\u00e5lgruppsindelad - huvudm\u00e4n, skolledare, l\u00e4rare - s\u00e5 att den blir relevant f\u00f6r mottagaren.",
+                    "uid":"8121f3c2-7527-4a97-9986-9eae3dc89b04",
+                    "contents":[
+
+                    ],
+                    "created":1543416991,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-tillgangliggora-aktuell-forskning-gallande-for/8121f3c2-7527-4a97-9986-9eae3dc89b04",
+                    "type_name":"DiscussionPost",
+                    "creator":[
+                        "jorden"
+                    ],
+                    "tags":[
+
+                    ]
+                },
+                {
+                    "text":"Skapa en forskningswiki d\u00e4r vi samlar och kondenserar aktuell forskning, kan korsreferera mellan olika \u00e4mnen och d\u00e4r vi kan l\u00e5ta medlemmar som arbetar med fr\u00e5gorna och forskare sj\u00e4lva bidra l\u00f6pande med ny forskning.",
+                    "uid":"82943e2f-f3b8-4721-8aae-c7bda272c1a8",
+                    "contents":[
+
+                    ],
+                    "created":1543413111,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-tillgangliggora-aktuell-forskning-gallande-for/82943e2f-f3b8-4721-8aae-c7bda272c1a8",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "venus"
+                    ],
+                    "tags":[
+                        "venus-9"
+                    ],
+                    "aid":"venus-9"
+                },
+                {
+                    "text":"Genom att se till att forskningen blir indelad efter inriktning - t.ex. \u00e4mnesindelat eller metodik. Oavsett \u00e4r konkretiseringen avg\u00f6rande.",
+                    "uid":"883cfe19-03b4-4194-ba4e-20ad68f3455c",
+                    "contents":[
+
+                    ],
+                    "created":1543416915,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-tillgangliggora-aktuell-forskning-gallande-for/883cfe19-03b4-4194-ba4e-20ad68f3455c",
+                    "type_name":"DiscussionPost",
+                    "creator":[
+                        "jorden"
+                    ],
+                    "tags":[
+
+                    ]
+                },
+                {
+                    "text":"Webbportal/-plats som tillhandah\u00e5ller relevant, aktuell och m\u00e5lgruppsanpassad forskning SAMT forum f\u00f6r erfarenhetsutbyte kring goda exempel och smart till\u00e4mpning",
+                    "uid":"ab4edf01-7dba-4462-9399-82c432712f61",
+                    "contents":[
+
+                    ],
+                    "created":1543413340,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-tillgangliggora-aktuell-forskning-gallande-for/ab4edf01-7dba-4462-9399-82c432712f61",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "uranus"
+                    ],
+                    "tags":[
+                        "uranus-7"
+                    ],
+                    "aid":"uranus-7"
+                },
+                {
+                    "text":"Genom att sortera, anakysera och paketera den p[ ett m[lgruppsanpassat s'tt.",
+                    "uid":"f01c7e62-da24-49d0-8444-2703c64f401d",
+                    "contents":[
+
+                    ],
+                    "created":1543412903,
+                    "path":"/skl-medarbetarkonferens/hur-kan-skl-bidra-till-att-tillgangliggora-aktuell-forskning-gallande-for/f01c7e62-da24-49d0-8444-2703c64f401d",
+                    "type_name":"Proposal",
+                    "creator":[
+                        "venus"
+                    ],
+                    "tags":[
+                        "venus-8"
+                    ],
+                    "aid":"venus-8"
+                }
+            ]
+        }
+    ]
+}
