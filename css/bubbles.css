@@ -1,10 +1,7 @@
 html, body{
   height:100%;
-  /* margin: 0; */
 }
 .inner_content{
-  /* height:100%; */
-  /* width:100%; */
   height:inherit;
   width:inherit;
   transition: 0.3s -webkit-filter linear;
@@ -15,7 +12,6 @@ html, body{
 #nav_bar_top{
   background-color: #5c5b97;
   height: 7vh;
-  /* height: 7%; */
   border-bottom: .5px solid black;
 }
 
@@ -31,9 +27,6 @@ https://codepen.io/micjamking/pen/QdojLz
 https://www.whitebyte.info/programming/css/how-to-make-a-div-take-the-remaining-height
 https://stackoverflow.com/questions/90178/make-a-div-fill-the-height-of-the-remaining-screen-space
   */
-#nav_bar_bot {
-  /* height: 12%; */
-}
 
 #content_container {
   max-width: 100%;
@@ -120,7 +113,7 @@ https://stackoverflow.com/questions/90178/make-a-div-fill-the-height-of-the-rema
   cursor: pointer;
   border-left: 1px solid #5c5b97;
   border-right: 1px solid #5c5b97;
-
+  height:7vh;
 }
 
 .removed {
