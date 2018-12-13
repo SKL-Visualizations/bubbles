@@ -237,6 +237,7 @@ function chart(rawData,t) {
   create_tid_titles();
   create_reg_titles();
   create_legend();
+  load_map_components_map();
 
   d3.selectAll(".badge")
     .on("click",function(d){
@@ -404,15 +405,46 @@ function move_bubbles(opt){
     simulation.force('x', d3.forceX().strength(forceStrength).x(reg_view));
   }
   simulation.alpha(1).restart();
-  toggle_title();
+  toggle_title(opt);
 }
 
 function change_view(option){
   $("#view_"+view_option).removeClass("active");
   $("#view_"+option).addClass("active");
+  if(view_option != 5 && option == 5){
+    toggle_map(1);
+    toggle_bubbles(0);
+  } else if (view_option == 5 && option == 5){
+    //do nothing.
+  } else if (view_option == 5 && option != 5){
+    toggle_map(0);
+    toggle_bubbles(1);
+    move_bubbles(option);
+    // toggle_title();
+  } else {
+    move_bubbles(option);
+    // toggle_title();
+  }
   view_option = option;
-  move_bubbles(option);
 }
+
+  function toggle_bubbles(a){
+    if(a == 0){
+      svg.style('display','none');
+    }
+    if(a == 1){
+      svg.style('display','initial');
+    }
+  }
+
+  function toggle_map(a){
+    if(a == 0){
+      d3.select("#map_svg_area").style('display','none');
+    }
+    if(a == 1){
+      d3.select("#map_svg_area").style('display','initial');
+    }
+  }
 
 /** All the different views **/
 function omrade_view(d){
@@ -830,22 +862,22 @@ function toggle_about(a){
 }
 
 function toggle_title(opt){
-  if(view_option == 2){
+  if(opt == 2){
     $(".radslagTitles").css("display","initial");
   } else {
     $(".radslagTitles").css("display","none");
   }
-  if(view_option == 1){
+  if(opt == 1){
     $(".omradeTitles").css("display","initial");
   } else {
     $(".omradeTitles").css("display","none");
   }
-  if(view_option == 3){
+  if(opt == 3){
     $(".tidTitles").css("display","initial");
   } else {
     $(".tidTitles").css("display","none");
   }
-  if(view_option == 4){
+  if(opt == 4){
     $(".regTitles").css("display","initial");
   } else {
     $(".regTitles").css("display","none");

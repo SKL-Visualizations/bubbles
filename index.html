@@ -5,6 +5,7 @@
     <title>Bubbles V0.12</title>
     <!-- <link rel="stylesheet" type="text/css" href="/css/lib/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" type="text/css" href="/BubbleV2/css/bubbles.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/map.css">
     <link rel="stylesheet" type="text/css" href="css/bubbles.css">
     <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
 
@@ -117,6 +118,7 @@
         <div class="col-7 px-0" id="main_box">
 
             <svg id="bubbles_svg_area" width="960" height="540"></svg>
+            <svg id="map_svg_area"></svg>
         </div>
         <div class="col-3" id="information_project">
           <!-- <div id="info_box"> -->
@@ -156,8 +158,12 @@
   <script src="js/libraries/jquery-3.2.1.min.js"></script>
   <script src="js/libraries/bootstrap/bootstrap.min.js"></script>
   <script src="js/libraries/d3.v4.min.js"></script>
+  <script src="//d3js.org/topojson.v1.min.js"></script>
+
   <script src="js/new_bubbles.js"></script>
   <script src="js/data_parse.js"></script>
+  <script src="js/map.js"></script>
+
 </body>
 
 <html>

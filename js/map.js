@@ -2,78 +2,77 @@
 //https://bl.ocks.org/ChumaA/385a269db46ae56444772b62f1ae82bf
 
 //https://www.gps-coordinates.net/
-var cities;
-var width = 800,
-    height = 535;
+var cities_map;
+var width_map = 800,
+    height_map = 535;
 
-var tooltip2_visible = 0;
+var tooltip2_visible_map = 0;
 
-var zoom = d3.zoom()
+var zoom_map = d3.zoom()
     .scaleExtent([1, 100])
-    .on("zoom.foo", zoomed2)
-    .on("zoom.bar", zoomed);
+    .on("zoom.foo", zoomed2_map)
+    .on("zoom.bar", zoomed_map);
 
-var projection = d3.geoMercator()
+var projection_map = d3.geoMercator()
     .rotate([5,-1])
     // .scale(950)
     .scale(1000)
     .center([27,62]) // X,Y or 21
     // .center([15,58])
-    .translate([width / 2, height / 2]);
+    .translate([width_map / 2, height_map / 2]);
 
-var path = d3.geoPath()
-    .projection(projection);
+var path_map = d3.geoPath()
+    .projection(projection_map);
 
-var svg = d3.select("svg")
+var svg_map = d3.select("#map_svg_area")
     .attr("width", "100%")
-    .attr("height", height)
-    .call(zoom);
+    .attr("height", height_map)
+    .style('display','none')
+    .call(zoom_map);
 
-var g = svg.append("g");                              // The map itself
-var cities_container = svg.append("g")
+var g_map = svg_map.append("g");                              // The map itself
+var cities_container_map = svg_map.append("g")
           .attr("class","circle_box");  // All corresponding circle_packings
-var path_g = svg.append("g");
-var projects = svg.append("g");
-var projects_2 = svg.append("g");
+var path_g_map = svg_map.append("g");
+var projects_map = svg_map.append("g");
+var projects_2_map = svg_map.append("g");
 
 // var path__g;
-var kommuner_color = {};
-var project_circles;
-var project2_circles;
-var komm;
+var kommuner_color_map = {};
+var project_circles_map;
+var project2_circles_map;
+var komm_map;
 
-var tooltip2 = d3.select("body").append("div")
+var tooltip2_map = d3.select("body").append("div")
     .attr("class", "tooltip2_bubble")
     .attr("id","tooltip2_bub")
     .style("opacity", 0);
 
-var colors = {"exists" : "#a5d9a1", "clicked" : "#1f9389", "grey" : "#C0C0C0", "normal" : "#9975b9"};
-var legend_titles = {
+var colors_map = {"exists" : "#a5d9a1", "clicked" : "#1f9389", "grey" : "#C0C0C0"};
+var legend_titles_map = {
   0: "Exists",
   1: "Clicked",
-  2: "Grey",
-  3: "Normal"
+  2: "Grey"
 };
-var legend_real_titles = {
-  0: "Kommuner på regionala rådslag",
+var legend_real_titles_map = {
+  0: "Kommuner på rådslag",
   1: "Kommuner på klickat rådslag",
-  2: "Ej delaktiga kommuner",
-  3: "Delaktiga kommuner"
+  2: "Ej delaktiga kommuner"
 }
-function zoomed() {
-  g.attr("transform",  d3.event.transform);
-  path_g.attr("transform",  d3.event.transform);
+function zoomed_map() {
+  g_map.attr("transform",  d3.event.transform);
+  path_g_map.attr("transform",  d3.event.transform);
 
 }
 
-function zoomed2(){
-  project_circles.attr("transform",project_transform(d3.event.transform));
-  project2_circles.attr("transform",project_transform(d3.event.transform));
+function zoomed2_map(){
+  project_circles_map.attr("transform",project_transform_map(d3.event.transform));
+  project2_circles_map.attr("transform",project_transform_map(d3.event.transform));
   // cities_circles.attr("r",circle_size_increase);
-  project_circles.attr("r",project_size_increase);
+  project_circles_map.attr("r",project_size_increase_map);
 }
 
-function circle_size_increase(d){
+function circle_size_increase_map(d){
   var i = d3.interpolateNumber(1, 20);
   var x = (d3.event.transform.y * -1)-2000;
   if(x > 0){
@@ -83,7 +82,7 @@ function circle_size_increase(d){
   return 1;
 }
 
-function project_size_increase(d){
+function project_size_increase_map(d){
   var i = d3.interpolateNumber(4, 70);
   var x = (d3.event.transform.y * -1)-1000;
   if(x > 0){
@@ -93,7 +92,7 @@ function project_size_increase(d){
   return 5;
 }
 
-function circle_transform(t) {
+function circle_transform_map(t) {
   return function(d) {
     var c = [this.getAttribute('cx'), this.getAttribute('cy')];
     var r = t.apply(c);
@@ -102,7 +101,7 @@ function circle_transform(t) {
   };
 }
 
-function project_transform(t) {
+function project_transform_map(t) {
   return function(d) {
     var r = [this.getAttribute('cx'), this.getAttribute('cy')];
     var x = t.apply(r);
@@ -110,12 +109,12 @@ function project_transform(t) {
     return "translate(" + a + ")";
   };
 }
-var kommuner_col = {};
+var kommuner_col_map = {};
 // kommuner.json will be påverkade kommuner.
 // Lista
 
 // Rådslag will contain sole info on where rådslag have happened.
-function load_map_components(){
+function load_map_components_map(){
   var q = d3.queue();
   q.defer(d3.json, 'data/map/rådslag.json');
   q.defer(d3.json, "data/map/sweden_kommuner.topo.json");
@@ -129,23 +128,23 @@ function load_map_components(){
     // console.log(data_list[2]);
     // letsplay(data_list[2]);
 
-    organize_kommuner(data_list[0]);
+    organize_kommuner_map(data_list[0]);
     create_map(data_list[1])
-    create_regions(data_list[2]);
-    create_projects(data_list[0]);
-    create_legend();
+    create_regions_map(data_list[2]);
+    create_projects_map(data_list[0]);
+    create_legend_map();
   });
 }
 
 
-function create_regions(data){
-   project2_circles = projects_2.selectAll("circle")
+function create_regions_map(data){
+   project2_circles_map = projects_2_map.selectAll("circle")
        .data(data).enter()
        .append("circle");
 
-     project2_circles.attr("id",function(d){return "red-"+d.id})
-     .attr("cx", function (d) { return projection([d.coordinates.x,d.coordinates.y])[0];})
-     .attr("cy", function (d) { return projection([d.coordinates.x,d.coordinates.y])[1];})
+     project2_circles_map.attr("id",function(d){return "red-"+d.id})
+     .attr("cx", function (d) { return projection_map([d.coordinates.x,d.coordinates.y])[0];})
+     .attr("cy", function (d) { return projection_map([d.coordinates.x,d.coordinates.y])[1];})
      .attr("r", function(d){
        return 2;
      })
@@ -161,40 +160,40 @@ function create_regions(data){
      .on('mouseout', handleMouseOutCircle);
 
      function handleMouseOverCircle(d){
-       tooltip2_visible = 1;
+       tooltip2_visible_map = 1;
        // var name = d.properties.KNNAMN;
        var name = d.namn;
-       tooltip2.transition().style("opacity", .9);
-       tooltip2.html("<b>"+name + "</b>")
+       tooltip2_map.transition().style("opacity", .9);
+       tooltip2_map.html("<b>"+name + "</b>")
          .style("left", (d3.event.pageX) + "px")
          .style("top", (d3.event.pageY - 28) + "px")
          .style("max-width",  200 + "px");
      }
      function handleMouseOutCircle(d){
-       tooltip2_visible = 0;
-       tooltip2.transition().style("opacity", 0).style("display","initial");
+       tooltip2_visible_map = 0;
+       tooltip2_map.transition().style("opacity", 0).style("display","initial");
      }
 
-  komm.attr("fill",function(d){
+  komm_map.attr("fill",function(d){
        var t = d.properties.KNNAMN;
        for(var j = 0; j < data.length; j++){
          var ob = data[j];
          for(var i = 0; i < ob.kommuner.length; i++){
            var oj = ob.kommuner[i];
-           if(oj.match(t) && kommuner_col[t] != 1){
-             kommuner_col[t] = 2;
-             return colors["normal"];
+           if(oj.match(t) && kommuner_col_map[t] != 1){
+             kommuner_col_map[t] = 2;
+             return colors_map["exists"];
            }
          }
        }
-       if(kommuner_col[t] != 1){
-         return colors["grey"];
+       if(kommuner_col_map[t] != 1){
+         return colors_map["grey"];
        }
-       return colors["exists"];
+       return colors_map["exists"];
      });
 }
 
-var meetings = [
+var meetings_map = [
     {
       name:"Rådslag om Skolans Digitalisering under Almedalsveckan 2018",
       coordinates:{x:18.2910,y:57.6406}
@@ -285,20 +284,20 @@ var meetings = [
     }
 ];
 
-function letsplay(data){
+function letsplay_map(data){
   var test_array = [];
-  for(var j = 0; j < meetings.length; j++){
+  for(var j = 0; j < meetings_map.length; j++){
     var obj = {};
-    obj.namn = meetings[j].name;
+    obj.namn = meetings_map[j].name;
     obj.id = j;
-    obj.coordinates = meetings[j].coordinates;
+    obj.coordinates = meetings_map[j].coordinates;
 
     var list_of_t = [];
     // var l_o_t = {};
     for(var i = 0; i < data.length; i++){
       var d = data[i];
       var name = d.Möte;
-      if(name.match(meetings[j].name)){
+      if(name.match(meetings_map[j].name)){
         var ko = d.Kommun;
         var bo = false;
         for(var k = 0; k < list_of_t.length; k++){
@@ -318,25 +317,25 @@ function letsplay(data){
   $(".check_text").text(JSON.stringify(test_array));
 }
 
-function organize_kommuner(data){
+function organize_kommuner_map(data){
   for(var i = 0; i < data.length; i++){
     var kom = data[i].kommuner;
     for(var j = 0; j < kom.length; j++){
-      kommuner_col[kom[j]] = 1;
+      kommuner_col_map[kom[j]] = 1;
     }
   }
 }
 //http://bl.ocks.org/miroli/4280679f81d0006e3142
-var old_k = [];
-function create_projects(data){
-  project_circles = projects.selectAll("circle")
+var old_k_map = [];
+function create_projects_map(data){
+  project_circles_map = projects_map.selectAll("circle")
        .data(data).enter()
        .append("circle");
 
-    project_circles
+    project_circles_map
        .attr("id",function(d){return"project-"+d.id})
-       .attr("cx", function (d) { return projection([d.coordinates.x,d.coordinates.y])[0];})
-       .attr("cy", function (d) { return projection([d.coordinates.x,d.coordinates.y])[1];})
+       .attr("cx", function (d) { return projection_map([d.coordinates.x,d.coordinates.y])[0];})
+       .attr("cy", function (d) { return projection_map([d.coordinates.x,d.coordinates.y])[1];})
        .attr("r", function(d){
          return 5;
        })
@@ -352,55 +351,56 @@ function create_projects(data){
        .on('click',clickedBubble);
 
        function handleMouseOverCircle(d){
-         tooltip2_visible = 1;
+         tooltip2_visible_map = 1;
          // var name = d.properties.KNNAMN;
          console.log(d);
          var name = d.namn;
-         tooltip2.transition().style("opacity", .9);
-         tooltip2.html("<b>"+name + "</b>")
+         tooltip2_map.transition().style("opacity", .9);
+         tooltip2_map.html("<b>"+name + "</b>")
            .style("left", (d3.event.pageX) + "px")
            .style("top", (d3.event.pageY - 28) + "px")
            .style("max-width",  200 + "px");
        }
        function handleMouseOutCircle(d){
-         tooltip2_visible = 0;
-         tooltip2.transition().style("opacity", 0).style("display","initial");
+         tooltip2_visible_map = 0;
+         tooltip2_map.transition().style("opacity", 0).style("display","initial");
        }
 
        function clickedBubble(d){
          var kom = d.kommuner;
-         komm.transition("phase-shift2")
+         komm_map.transition("phase-shift2")
             .attr("fill",function(d){
               var t = d.properties.KNNAMN;
               for(var i = 0; i < kom.length; i++){
                 if(kom[i].match(t)){
-                  return colors["clicked"];
+                  return colors_map["clicked"];
                 }
               }
               var n = d.properties.KNNAMN;
-              if(kommuner_col[n] == 1){
-                return colors["exists"];
-              } else if(kommuner_col[n] == 2){
-                return colors["normal"];
+              if(kommuner_col_map[n] == 1){
+                return colors_map["exists"];
+              } else if(kommuner_col_map[n] == 2){
+                return colors_map["exists"];
               }
 
-              return colors["grey"];
+              return colors_map["grey"];
             });
        }
 }
-var project_titles = {
+var project_titles_map = {
   0: "Regionala rådslag",
   1: "Andra rådslag"
 };
-function create_legend(){
-  var t = svg.append("g")
-  .classed('legend','true')
+
+function create_legend_map(){
+  var t = svg_map.append("g")
+  .classed('legend_map','true')
   // .attr('x',50);
-  var spec_height = height - 20;
+  var spec_height = height_map - 20;
   var width_s = 170
   var extra_width = 30;
-  var xt = t.selectAll('.legend')
-    .data(d3.keys(legend_titles));
+  var xt = t.selectAll('.legend_map')
+    .data(d3.keys(legend_titles_map));
 
   xt.enter().append('rect')
     .attr('width','15')
@@ -412,7 +412,7 @@ function create_legend(){
       return i * 25 + 25;
     })
     .attr('fill',function(d){
-      return colors[legend_titles[d].toLowerCase()];
+      return colors_map[legend_titles_map[d].toLowerCase()];
     })
     .classed('legend_rect',true);
 
@@ -424,10 +424,10 @@ function create_legend(){
       return i * 25 + 37;
     })
     .text(function(d){
-      return legend_real_titles[d];
+      return legend_real_titles_map[d];
     });
   var tt = t.selectAll('.legend')
-    .data(d3.keys(project_titles));
+    .data(d3.keys(project_titles_map));
 
   tt.enter().append('circle')
     // .attr('cx',3)
@@ -465,48 +465,48 @@ function create_legend(){
       return (d+4) * 22.5 + 45;
     })
     .text(function(d){
-      return project_titles[d];
+      return project_titles_map[d];
     });
 }
 
 function create_map(sweden){
-  komm = g.selectAll('.subunit')
+  komm_map = g_map.selectAll('.subunit')
             .data(topojson.feature(sweden, sweden.objects.kommuner).features)
             .enter().append("path")
 
-  komm.attr("d", path)
+  komm_map.attr("d", path_map)
         .attr("id", function(d){return d.properties.KNNAMN;})
         .attr("fill",function(d){
           var n = d.properties.KNNAMN;
-          if(kommuner_col[n] == 1){
-            return colors["exists"];
+          if(kommuner_col_map[n] == 1){
+            return colors_map["exists"];
           }
-          return colors["grey"];})
+          return colors_map["grey"];})
         .on('mouseover', handleMouseOverCircle)
         .on('mouseout', handleMouseOutCircle);
 //https://bl.ocks.org/mbostock/4180634
-  g.insert("path", ".graticule")
+  g_map.insert("path", ".graticule")
     .datum(topojson.mesh(sweden, sweden.objects.kommuner, function(a, b) { return a !== b; }))
     .attr("class", "boundary")
-    .attr("d", path);
+    .attr("d", path_map);
 
   function handleMouseOverCircle(d){
-    tooltip2_visible = 1;
+    tooltip2_visible_map = 1;
     var name = d.properties.KNNAMN;
-    tooltip2.transition().style("opacity", .9);
-    tooltip2.html("<b>"+name + "</b>")
+    tooltip2_map.transition().style("opacity", .9);
+    tooltip2_map.html("<b>"+name + "</b>")
       .style("left", (d3.event.pageX) + "px")
       .style("top", (d3.event.pageY - 28) + "px")
       .style("max-width",  200 + "px");
   }
   function handleMouseOutCircle(d){
-    tooltip2_visible = 0;
-    tooltip2.transition().style("opacity", 0).style("display","initial");
+    tooltip2_visible_map = 0;
+    tooltip2_map.transition().style("opacity", 0).style("display","initial");
   }
 }
 
 window.addEventListener("mousemove", function(e){
-  if(tooltip2_visible == 1){
+  if(tooltip2_visible_map == 1){
     var y = e.clientY+18;
     var x = e.clientX-30;
     var y_cap = document.getElementById("tooltip2_bub").clientHeight;
@@ -516,7 +516,7 @@ window.addEventListener("mousemove", function(e){
     if(x > 1200){
       x = 1200;
     }
-    tooltip2.style("left", x + "px")
+    tooltip2_map.style("left", x + "px")
         .style("top", y + "px");
   }
 });
