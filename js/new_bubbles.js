@@ -797,25 +797,39 @@ function create_omrade_titles(){
   var omradeData = d3.keys(omrade_titles);
   var years = g.selectAll('.omradeTitles')
   .data(omradeData);
-  var max_y = [0,0,0];
-  bubbles.filter(function(d){
+  var max_y = [150000,150000,150000];
+  var max_x = [100000,100000,10000];
+  svg.selectAll('circle').filter(function(d){
         var x = d.omrade;
-        if(d.cy> max_y[x]){
-          max_y[x] = d.cy;
+        var c = $(this).css('cy')
+        var cy = c.split('px')[0];
+        cy = parseInt(cy,10);
+        if(cy< max_y[x]){
+          max_y[x] = cy;
+        }
+
+        c = $(this).css('cx');
+        var cx = c.split('px')[0];
+        cx = parseInt(cx,10);
+        if(cx < max_x[x]){
+          max_x[x] = cx;
         }
     return false;
   });
-
+console.log(max_y);
+// console.log(max_x);
 years.enter().append('text')
   .attr('class', 'omradeTitles')
   .attr('display','none')
-  .attr('x', function (d) { return omrade_titles_x[d]; })
+  // .attr('x', function (d) { return omrade_titles_x[d]; })
   // .attr('y', function(d){  return omrade_titles_y[d];})
+  .attr('x', function (d) { return max_x[d]+100; })
+
   .attr('y', function(d){
-     return -1*max_y[d];
+     return max_y[d] - 15;
    })
 
-  .attr('text-anchor', 'middle')
+  .attr('text-anchor', 'left')
   .text(function (d) { return omrade_titles[d]; });
 }
 
@@ -882,8 +896,8 @@ function toggle_title(opt){
   }
   if(opt == 1){
     if(title_created[1] == 0){
-      // window.setTimeout(create_omrade_titles, 1000);
-      create_omrade_titles();
+      window.setTimeout(create_omrade_titles, 1000);
+      // create_omrade_titles();
       title_created[1] = 1;
     }
     $(".omradeTitles").css("display","initial");
