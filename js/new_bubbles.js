@@ -52,20 +52,28 @@ var tid_titles = {
   2: "Lång",
   3: "N/A"
 };
+// var tidCenters = {
+//   0: { x: width / 3, y: height / 2 },
+//   1: { x: width / 2, y: height / 2 },
+//   2: { x: 2 * width / 3, y: height / 2 },
+//   3:  { x: 0 , y: 0 }
+// };
+
 var tidCenters = {
-  0: { x: width / 3, y: height / 2 },
-  1: { x: width / 2, y: height / 2 },
-  2: { x: 2 * width / 3, y: height / 2 },
-  3:  { x: 0 , y: 0 }
-};
+    0: {x:250, y:0},
+    1: {x:450, y:0},
+    2: {x:650, y:0},
+    3: {x:0,y:0},
+
+}
 var tid_titles_x = {
-    0: 320,
-    1: 520,
-    2: 720,
-    3: -40
+    0: 250,
+    1: 500,
+    2: 750,
+    3: 0
 };
 var tid_titles_y = {
-  0: 110,
+  0: 150,
   1: 110,
   2: 130,
   3: 90
@@ -232,10 +240,10 @@ function chart(rawData,t) {
     ids_of_filtered[i] = 0;
   }
   // Create the title elements
-  create_radslag_titles();
+  // create_radslag_titles();
   // create_omrade_titles();
-  create_tid_titles();
-  create_reg_titles();
+  // create_tid_titles();
+  // create_reg_titles();
   create_legend();
   load_map_components_map();
 
@@ -786,7 +794,7 @@ function create_radslag_titles(){
 
 years.enter().append('text')
   .attr('class', 'radslagTitles')
-  .attr('display','none')
+  .attr('display','initial')
   .attr('x', function (d) { return radslag_titles_x[d]; })
   .attr('y', function(d){  return radslag_titles_y[d];})
   .attr('text-anchor', 'middle')
@@ -807,7 +815,6 @@ function create_omrade_titles(){
         if(cy< max_y[x]){
           max_y[x] = cy;
         }
-
         c = $(this).css('cx');
         var cx = c.split('px')[0];
         cx = parseInt(cx,10);
@@ -816,11 +823,9 @@ function create_omrade_titles(){
         }
     return false;
   });
-console.log(max_y);
-// console.log(max_x);
 years.enter().append('text')
   .attr('class', 'omradeTitles')
-  .attr('display','none')
+  .attr('display','initial')
   // .attr('x', function (d) { return omrade_titles_x[d]; })
   // .attr('y', function(d){  return omrade_titles_y[d];})
   .attr('x', function (d) { return max_x[d]+100; })
@@ -837,24 +842,34 @@ function create_tid_titles(){
   var omradeData = d3.keys(tid_titles);
   var years = g.selectAll('.tidTitles')
   .data(omradeData);
-
+  var max_y = [150000,150000,150000,15000];
+  svg.selectAll('circle').filter(function(d){
+        var x = d.tid;
+        var c = $(this).css('cy')
+        var cy = c.split('px')[0];
+        cy = parseInt(cy,10);
+        if(cy< max_y[x]){
+          max_y[x] = cy;
+        }
+    return false;
+  });
 years.enter().append('text')
   .attr('class', 'tidTitles')
-  .attr('display','none')
+  .attr('display','initial')
   .attr('x', function (d) { return tid_titles_x[d]; })
-  .attr('y', function(d){  return tid_titles_y[d];})
+  .attr('y', function(d){  return max_y[d]-40;return tid_titles_y[d];})
   .attr('text-anchor', 'middle')
   .text(function (d) { return tid_titles[d]; });
 }
 
 function create_reg_titles(){
   var omradeData = d3.keys(reg_titles);
-  var years = g.selectAll('.regtitles')
+  var years = g.selectAll('.regTitles')
   .data(omradeData);
 
 years.enter().append('text')
   .attr('class', 'regTitles')
-  .attr('display','none')
+  .attr('display','initial')
   .attr('x', function (d) { return reg_titles_x[d]; })
   .attr('y', function(d){  return reg_titles_y[d];})
   .attr('text-anchor', 'middle')
@@ -888,8 +903,14 @@ function toggle_about(a){
 }
 var title_created = [0,0,0,0];
 
+
+
 function toggle_title(opt){
   if(opt == 2){
+    if(title_created[2] == 0){
+      window.setTimeout(create_radslag_titles, 1000);
+      title_created[2] = 1;
+    }
     $(".radslagTitles").css("display","initial");
   } else {
     $(".radslagTitles").css("display","none");
@@ -897,7 +918,6 @@ function toggle_title(opt){
   if(opt == 1){
     if(title_created[1] == 0){
       window.setTimeout(create_omrade_titles, 1000);
-      // create_omrade_titles();
       title_created[1] = 1;
     }
     $(".omradeTitles").css("display","initial");
@@ -905,11 +925,19 @@ function toggle_title(opt){
     $(".omradeTitles").css("display","none");
   }
   if(opt == 3){
+    if(title_created[3] == 0){
+      window.setTimeout(create_tid_titles, 1000);
+      title_created[3] = 1;
+    }
     $(".tidTitles").css("display","initial");
   } else {
     $(".tidTitles").css("display","none");
   }
   if(opt == 4){
+    if(title_created[4] == 0){
+      window.setTimeout(create_reg_titles, 1000);
+      title_created[4] = 1;
+    }
     $(".regTitles").css("display","initial");
   } else {
     $(".regTitles").css("display","none");
